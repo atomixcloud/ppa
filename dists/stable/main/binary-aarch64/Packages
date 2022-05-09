@@ -1,0 +1,45 @@
+Package: kstat-static
+Architecture: aarch64
+Version: 1.0
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 48
+Depends: kstat (= 1.0)
+Filename: pool/main/kstat/kstat-static_1.0_aarch64.deb
+Size: 5692
+MD5sum: e1203fca9c2625c1297e81e4c9cfa8ec
+SHA1: 1688652fc0a9125a2835b705eba27123a2811285
+SHA256: a7ee4bf3eb3b4924987ec04d8d118b1fc1e0236a76da765bbd5dc1a4cd038008
+SHA512: 24a607586bdff569153d3ac3692184f715bec12d490138c530afb59147dd6411511a33a96e9ae85056709331403379188ea5832c48f42e2aab87598a27b48c5e
+Homepage: https://github.com/atomixcloud/kstat
+Description: Static libraries for kstat
+
+Package: kstat
+Architecture: aarch64
+Version: 1.0
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 60
+Depends: file
+Filename: pool/main/kstat/kstat_1.0_aarch64.deb
+Size: 5684
+MD5sum: ff10df4bd8c3d7c3f555b6ee618cb142
+SHA1: a9400ea3fe4f1b14f38432a6535cf665eb3ee801
+SHA256: 9a5d37d07826ab211ef48020693914b2ac04816e71dba014eb9ab977dcd8001a
+SHA512: 8c4f1b9f8895fd1c4802017817b1639862d41c46e04e7d6ab5be718293e7bfb92bf9eedb1f82fe8dfda330c5cc426f789916295fcff601ba632da718f6924ab6
+Homepage: https://github.com/atomixcloud/kstat
+Description: Kstat: Advanced file stat program.
+
+Package: ktools
+Architecture: aarch64
+Version: 1.0-a
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 388
+Depends: file, ctags, cscope, libexif, kstat
+Filename: pool/main/ktools/ktools_1.0-a_aarch64.deb
+Size: 76012
+MD5sum: 2179e99a91e36569dcd8bf90e2889667
+SHA1: 6c33fcc64abb3bf13b721515c522b897630a897a
+SHA256: 42ef938877dd040d8f90c5ebff8e87788fc192c83714ba751ad20c5ff958a944
+SHA512: b9d81fc1c3d02830240818acc0c1248c5e96da472c268778a8d07de98046ebe786847858293d50b0f754192b4c5e04d7d795dd35bb2118dacbc583332e237b9a
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
+

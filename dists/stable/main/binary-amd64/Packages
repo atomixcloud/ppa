@@ -1,0 +1,92 @@
+Package: kplay
+Architecture: amd64
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 77
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.16.2), libmagic1 (>= 5.12)
+Filename: pool/main/kplay/kplay_1.0-0_amd64.deb
+Size: 34300
+MD5sum: 368a6ccc99e8c1c5cc73d02745a54e3e
+SHA1: e39373312c49842d341e36cca3a762a0afdf35a7
+SHA256: fbcf88547c3465483e069eaffa2a45be6f1d283c2f80c7d7e998aff302d7d094
+SHA512: df79d0d5ad4cd858d4a21ea09d838767537006d8df0391a6223c3705497dc4a97c489b3666bd73a234cc49bc5e633f952401c1ed3bb224d4a9b855b8c97cdc46
+Homepage: https://github.com/atomixcloud/kplay
+Description: GTK-2 Mediaplayer
+
+Package: kstat
+Architecture: amd64
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 20
+Depends: libkstat (= 1.0-0), libc6 (>= 2.4)
+Filename: pool/main/kstat/kstat_1.0-0_amd64.deb
+Size: 3228
+MD5sum: 88b9579d1bb6f97159064d9e41c02c0c
+SHA1: 41e504561f0087ee888111c6877d734d2d1e5643
+SHA256: 662b5c929c81c5c7a937faacaad0599fb3507d12ff1c97aede4b25e1b576e2e7
+SHA512: 238e059390cd0a50dacbfe3e3bc6c1bfbbff04b538e98ad448f2397d79d18cc9bb29feacf660b5783ea8df5e40d4620c0c54115a6b61a1401d0b8a974bfbe907
+Homepage: https://github.com/atomixcloud/kstat
+Description: Kstat: Advanced file stat program
+
+Package: libkstat-dev
+Architecture: amd64
+Version: 1.0-0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: kstat
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 21
+Depends: libkstat (= 1.0-0)
+Filename: pool/main/kstat/libkstat-dev_1.0-0_amd64.deb
+Size: 4068
+MD5sum: 08cb1f86bbaa858cf55333348f174292
+SHA1: 43d76b570d461304ba740755e32b083b59264b2b
+SHA256: ab514875653cc00586f9fda1292e5f94d619513be6e62bf22fbfec680818f101
+SHA512: d6ec98a6fc0809ee48f50c4bb68dc18e7a102f379a9f0a5456a2f166f909c81dea5e7c6348e886b0c55fbfa262bb34a48e9ed83112205f399eb19da09ac81dca
+Homepage: https://github.com/atomixcloud/kstat
+Description: This package contains the libkstat development files
+
+Package: libkstat
+Architecture: amd64
+Version: 1.0-0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kstat
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.4), libmagic1 (>= 5.12)
+Filename: pool/main/kstat/libkstat_1.0-0_amd64.deb
+Size: 4576
+MD5sum: 5af3a06080bd4b050caa71684e9f5235
+SHA1: 8cc54b8ce2d6dd6edbfa797330e6813460eded74
+SHA256: 8e0a152cb1bbb164ed121cb5ac45771b8a0f3a5008cc49750fe3f15e26be2faa
+SHA512: 689634f8095abd865f1b5204407d88ce074b9a3e34063eb8e7ad37ffa973575f0fb4ac69d51e848b4f00e9bbf063c517febbbfbdc274b3c0604a67437be9f93c
+Homepage: https://github.com/atomixcloud/kstat
+Description: This package contains the libkstat binaries
+
+Package: ktools
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 446
+Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
+Filename: pool/main/ktools/ktools_1.0-a_amd64.deb
+Size: 91828
+MD5sum: 7f1fbe63162853c612d31d8a233fd9ef
+SHA1: 37883fd34c4577aefdb19f32cdeb31fbeed45021
+SHA256: 0ceeaa8a96758a80847a30a9458e415afc895c5dec88c34537d3f0d86fa646ad
+SHA512: d7ccfba88ed9aa44243c5195f30a2e779b12d2b5880fdd1cce80959892df66b6cf067681d168a22d8245a978cfe40bb049234aaeb12743da8537eb51166e9959
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
+

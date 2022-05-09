@@ -1,0 +1,33 @@
+Origin: Atomixcloud repository
+Label: Atomixcloud
+Version: 1.0
+Suite: stable
+Codename: stable
+Components: main
+Architectures: amd64 i386 aarch64
+Description: Atomixcloud Debian repository
+Date: Mon, 09 May 2022 09:41:41 +0000
+MD5Sum:
+ fe7774084060e6190acfbfb489333705              226 Release
+ 83a5773326921f3437e4bf763faaf26a             1908 main/binary-aarch64/Packages
+ 5a165f66521ec299f580ccac81bbc0fb              965 main/binary-aarch64/Packages.gz
+ 13904797a363711a2c5eafa1325bbe25             3743 main/binary-amd64/Packages
+ e38fc2e6aa2b762a56bcd246a3e7d9ce             1572 main/binary-amd64/Packages.gz
+SHA1:
+ f9d62fb377b8a12728ea2d94486947544c6540ee              226 Release
+ 929ff2f123d6b6d0d3377358d475b99dd51cf05b             1908 main/binary-aarch64/Packages
+ f0f393d644e6259aa4db7e69a8cdad47d9a9766f              965 main/binary-aarch64/Packages.gz
+ 84fbcb1a767ae629c1b633e13acb888279a7e336             3743 main/binary-amd64/Packages
+ ee5c1ae8570d917f66803ca1494b0d25461791cd             1572 main/binary-amd64/Packages.gz
+SHA256:
+ 18c723abe30057296804f34a985fe0648f3b0592cb55d4def54afbb722ce9230              226 Release
+ 9059afe6dc58e992d06994927c1af07c941ee8892e0f0676f7add8dc4f36680c             1908 main/binary-aarch64/Packages
+ da1b61bb8101ed30825516ebc2e78e3bece22ef29dbdeaad9e2b3f22f361514f              965 main/binary-aarch64/Packages.gz
+ c1502237536acc25236ac7f6c1044a7be17a5e4ea2240a20fd60d93161c0f9d0             3743 main/binary-amd64/Packages
+ 398da8fd12be97da02eeed7f52e3b4a3ef12effa5e6ed9e3bbdcf8cd1af5342a             1572 main/binary-amd64/Packages.gz
+SHA512:
+ a65b76f695f2d53340cad7aa2ecd40b319a803cea7de0428703fd1cb3d371ad5086078193945a9caebd9170d303731b98d903c506a35ec403520e1e3814fc782              226 Release
+ be15e55624f27e161a5c75110ddcd7a1694968af9a798a621a1ca18c5cfeac8622538c8cce5b3e8ee121e60290c2a425e5473f96b8d0fac2c294e52d9a8a84b0             1908 main/binary-aarch64/Packages
+ 623ffa8c1b59698b72f3f00de1e4199bbe2691a64b2ed50b966bc2dc32c982979e42703205ec268fa20f44b7d22b6a2b8c00377a14e467edecddbc55a9e75020              965 main/binary-aarch64/Packages.gz
+ 20eaf3e5012a020b2f947ae288311ebce53e930eb840e1da861cd3e766497aaa29978127d41e1ab84e18b600583d27ab4da66cc58c62d01045fcda658407b126             3743 main/binary-amd64/Packages
+ d11a9f814db0492d1156ac207556c8a6f5bb23b5ba36337850f455b98bacf34a15eac40a0695a905caab8f2f05e7243b8248665aec5c977a6be5eee736cc51a0             1572 main/binary-amd64/Packages.gz

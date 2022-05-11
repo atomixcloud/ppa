@@ -1,3 +1,20 @@
+Package: kbuild
+Architecture: all
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 17
+Filename: pool/main/kbuild/kbuild_1.0-0_all.deb
+Size: 3568
+MD5sum: e644c4dff907b3b409d3d29ac4506a27
+SHA1: c045f30be260b032efb1ef616382de8dc71060ed
+SHA256: d8f0a89d8a91d52d098cee5fe5c6e26b452268758a5b8bd7f290a67c62d4cd24
+SHA512: da884a36a78bbb490d6103e3880792e8b6ac2e0ca1ba005869aed3b7e49783b440a32e9182e0e1b4b098206897d711c91821b900860239081b47649b0f300103
+Homepage: https://github.com/atomixcloud/kbuild
+Description: Debian and Termux package builder.
+
 Package: kstat-static
 Architecture: aarch64
 Version: 1.0

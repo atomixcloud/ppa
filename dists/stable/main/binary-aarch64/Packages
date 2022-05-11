@@ -8,10 +8,10 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 17
 Filename: pool/main/kbuild/kbuild_1.0-0_all.deb
 Size: 3568
-MD5sum: 7e8b01c1cee65928b49079ed9cd02499
-SHA1: 385147a464808a510145bb41e68cc26a7a0dd6c2
-SHA256: 1cc22f79457a35d2ee85372fcaface1620970240e6caa5d38339dc8a61045336
-SHA512: 2e459e7a09e76e873a2fcd1a4a08e817f5a1d21e04be3984147793e33629afd0ec60aafebe7361b0b302b21a511c86b8a35c34d81a4ac05f5bb62130b7ceb44e
+MD5sum: 52d7750f251796fa27e208e51c8e5aca
+SHA1: def1d62c3da914fb4dc308b3817de3ddc33c772f
+SHA256: 85c4fe8f80d0efc683fd895d2aca05a805d34cd70332205a3bca4d1ed0e74282
+SHA512: 1225ba3758180d76a4f52655814564ab8c3cbac74e09898870fca036d16a72e994418ae8af230efb26fddb7c52f04a031ca235ff81b386364dab6b3fc18957a9
 Homepage: https://github.com/atomixcloud/kbuild
 Description: Debian and Termux package builder.
 

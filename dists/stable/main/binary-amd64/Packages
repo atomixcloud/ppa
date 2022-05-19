@@ -1,18 +1,18 @@
-Package: kbuild
+Package: kdebuild
 Architecture: all
 Version: 1.0-0
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 17
-Filename: pool/main/kbuild/kbuild_1.0-0_all.deb
-Size: 3568
-MD5sum: 52d7750f251796fa27e208e51c8e5aca
-SHA1: def1d62c3da914fb4dc308b3817de3ddc33c772f
-SHA256: 85c4fe8f80d0efc683fd895d2aca05a805d34cd70332205a3bca4d1ed0e74282
-SHA512: 1225ba3758180d76a4f52655814564ab8c3cbac74e09898870fca036d16a72e994418ae8af230efb26fddb7c52f04a031ca235ff81b386364dab6b3fc18957a9
-Homepage: https://github.com/atomixcloud/kbuild
+Installed-Size: 19
+Filename: pool/main/kdebuild/kdebuild_1.0-0_all.deb
+Size: 4028
+MD5sum: 56a65aa07b35abb2acc1b5a079e94fd5
+SHA1: 250c32d6b5bc30330f793bf4ee3753597535a698
+SHA256: 49955911812512787ec86c19f9a431edf364c85736b41e41948c1aa3f5da3999
+SHA512: 57d6bbd05acae1d8cbadaa33ae18caccbbd49416ae3af3131a8a1510951995bfccb30ce4da3e85159e72770bc0e68bb95d54ae873d2d1526277df262e71ed5da
+Homepage: https://github.com/atomixcloud/kdebuild
 Description: Debian and Termux package builder.
 
 Package: kplay

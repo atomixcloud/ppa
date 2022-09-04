@@ -1,24 +1,3 @@
-Package: libdxalloc-dbgsym
-Package-Type: ddeb
-Architecture: amd64
-Version: 1.0-0
-Auto-Built-Package: debug-symbols
-Multi-Arch: same
-Priority: optional
-Section: debug
-Source: dxalloc
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 41
-Depends: libdxalloc (= 1.0-0)
-Filename: pool/main/dxalloc/libdxalloc-dbgsym_1.0-0_amd64.ddeb
-Size: 22212
-MD5sum: 23428812165f87ff5f80b9bb45249dc6
-SHA1: a585e4775d3ae38504664b60b7886ecbf828787b
-SHA256: d0b5cae84b13625ced608ee1d37c199bff6c86e810684c828ac6187527bd2112
-SHA512: e3a9f2dc8820bfa9d1f1b834ac26c864bbb507fa6f342d96e730a2e780eeb5b0bab238a35e4b219f44152eb92bfd4ec23b8f54f559a679b84a07127c952a062a
-Description: debug symbols for libdxalloc
-Build-Ids: f9296d09a43c0aacdbcd81a226b48a478e352da6
-
 Package: libdxalloc-dev
 Architecture: amd64
 Version: 1.0-0

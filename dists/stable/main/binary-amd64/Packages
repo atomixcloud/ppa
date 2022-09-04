@@ -1,3 +1,62 @@
+Package: libdxalloc-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.0-0
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dxalloc
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 41
+Depends: libdxalloc (= 1.0-0)
+Filename: pool/main/dxalloc/libdxalloc-dbgsym_1.0-0_amd64.ddeb
+Size: 22212
+MD5sum: 23428812165f87ff5f80b9bb45249dc6
+SHA1: a585e4775d3ae38504664b60b7886ecbf828787b
+SHA256: d0b5cae84b13625ced608ee1d37c199bff6c86e810684c828ac6187527bd2112
+SHA512: e3a9f2dc8820bfa9d1f1b834ac26c864bbb507fa6f342d96e730a2e780eeb5b0bab238a35e4b219f44152eb92bfd4ec23b8f54f559a679b84a07127c952a062a
+Description: debug symbols for libdxalloc
+Build-Ids: f9296d09a43c0aacdbcd81a226b48a478e352da6
+
+Package: libdxalloc-dev
+Architecture: amd64
+Version: 1.0-0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dxalloc
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 38
+Depends: libdxalloc (= 1.0-0)
+Filename: pool/main/dxalloc/libdxalloc-dev_1.0-0_amd64.deb
+Size: 7640
+MD5sum: 419947a9f095105e3513275ed9faffec
+SHA1: 1cc0e2170ed01007c77ac43272ee118051f52509
+SHA256: 1d4f48c7a5209e3e4a0db6d8474ad58bea3e36f596e9a24c5201489fe8ec6e15
+SHA512: d0d8bf16087ce5c64104718e6ccbaafa3f65ed18ade2067140448812166e3d64f7d6db9f4b2b8443d0ae80410f0e1c34866e114cb19be5e217b082e3b8e78c1b
+Homepage: https://github.com/atomixcloud/dxalloc
+Description: Dxalloc shared library development files
+
+Package: libdxalloc
+Architecture: amd64
+Version: 1.0-0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dxalloc
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 79
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.31.8)
+Filename: pool/main/dxalloc/libdxalloc_1.0-0_amd64.deb
+Size: 30264
+MD5sum: d063385cfb24f98b1f63bed5e93f4e5f
+SHA1: 6d7f91b79c296bd12054f02b122974fe797d1b24
+SHA256: 59bc43e05e2d10a7bb0cfd4ad795973ecd15e1f32203355e599052f4c4bdd34d
+SHA512: 8ebb9be41b964b2b849631633af69dd1fbe5ae204081c653ea5dcaf194261522d2e408409d541eb22428bc1fd2f00c90ab48660327911ba151f1d2af09170fc0
+Homepage: https://github.com/atomixcloud/dxalloc
+Description: Dxalloc shared library
+
 Package: kdebuild
 Architecture: all
 Version: 1.0-0

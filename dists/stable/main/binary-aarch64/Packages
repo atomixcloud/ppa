@@ -67,11 +67,11 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 388
 Depends: file, ctags, cscope, libexif, kstat
 Filename: pool/main/ktools/ktools_1.0-b_aarch64.deb
-Size: 76024
-MD5sum: 5c356163db76f86288cc7e43a3ba8c1f
-SHA1: 8f63cc6e6b2281335282e5863ff8f93039863e22
-SHA256: 0336d84496650e9a6c72df7e1b6d38537238547749606be2fa26045e3a255a07
-SHA512: 1384355ec2f24d4ab649deb20459d8e8cbf090997246fab954859c6c2956c1e5fb830ee36dd4225bca6c7437320ebd09820defe065b59e993ad18f3f2f30857c
+Size: 75992
+MD5sum: 8aff584fbe61dfec7ce0b73a62b6162f
+SHA1: dbf3e8ba33e112b98e1d0be64ea3c6aa7c6930ea
+SHA256: a020f6b55abf6cba77e04d7a879dc9d7f4803130cae2fd748311858aba7fdd2a
+SHA512: f22fb4df3e3ecd22b37aead7c443f8217dc963236acfc89fde0e3fbe2fd7caea0b9e3fe0e8971a225adbc7251064b4bd351129ba806ca22384359e47e183f3b9
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 

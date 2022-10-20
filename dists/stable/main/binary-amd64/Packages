@@ -36,6 +36,24 @@ SHA512: 474b84e3017be22b44b643ab77cdb0e09e29f5420285e1cb2f36973650d1a6d7185777b4
 Homepage: https://github.com/atomixcloud/dxalloc
 Description: Dxalloc shared library
 
+Package: glade-2
+Architecture: amd64
+Version: 12.2-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 5175
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.14.0), libxml2 (>= 2.7.4)
+Filename: pool/main/glade-2/glade-2_12.2-0_amd64.deb
+Size: 989072
+MD5sum: 24d9061d4bfbe8b81c7d6b3f617cc816
+SHA1: 5aa5bbaf02fd8e48db4fd38ae8bd4d49238cc1a1
+SHA256: 5fd3b5118bd2cd490ba23f4f6d9c0b8e97370e66e689166c6801c049c145d9f9
+SHA512: 397919e248e07c24a22039a2358034767ed2dfac3adceb7447ced0c729ee7f76452e7d1b5c025f8ab75862cf2e7371a988bf5781b64842526820b075547ae17a
+Homepage: https://glade.gnome.org
+Description: GUI builder for the GTK and GNOME versions 2.
+
 Package: kdebuild
 Architecture: all
 Version: 1.0-0
@@ -180,4 +198,22 @@ SHA256: c5637b0aac6bfb8a9a5a9bda8e72002f866b1a27e96b37c527e8aa9101ab50fa
 SHA512: 3a5b089306c383efa118b3db6ec40c58efb8e67a5576b17acd0067f1c546b8aa25058e4213a283e7b0e9f9aa06ba99f82118a193395e36328addcf6301009246
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
+
+Package: scrollkeeper
+Architecture: amd64
+Version: 0.3.14-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 1710
+Depends: libc6 (>= 2.14), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
+Filename: pool/main/scrollkeeper/scrollkeeper_0.3.14-0_amd64.deb
+Size: 227324
+MD5sum: 6a78ea387374ac49cd095148ca0dc51f
+SHA1: 1d1fb0a670706812b33350899c74803d1aa16cb6
+SHA256: 239683a639d400b98e09f36253f999ed3862728cb0821b5ee45833b3ce51a4fd
+SHA512: ebd1570c9df8d3958d7d75ce088f7a4874c9f436afb7cad05c7f523a69dba125494225dcd85f6e5071f27d83dd799e661616209a49c087c69a833e83340f411c
+Homepage: http://scrollkeeper.sourceforge.net
+Description: ScrollKeeper is a cataloging system for documentation on open systems.
 

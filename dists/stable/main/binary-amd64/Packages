@@ -199,6 +199,24 @@ SHA512: 3a5b089306c383efa118b3db6ec40c58efb8e67a5576b17acd0067f1c546b8aa25058e42
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 
+Package: ktools
+Architecture: amd64
+Version: 1.0-d
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 450
+Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
+Filename: pool/main/ktools/ktools_1.0-d_amd64.deb
+Size: 92452
+MD5sum: a0f0e2ebb12d6c6b04af122f389bb08d
+SHA1: 166302d38e8233aeddea495b958d2bc42bebead2
+SHA256: 04367d10f6865ce316cc70e8608a6419642136c7cfa85aa619be8aabcec41f8c
+SHA512: 1e0ea07976d31e532349db31204d3127daf56d0dbf28963f5af2c0bb6dec9ed86d1a3aa8f7e593c5b225cae913b291c29221ece962d4e1072dee513fa0fcd5de
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
+
 Package: scrollkeeper
 Architecture: amd64
 Version: 0.3.14-0

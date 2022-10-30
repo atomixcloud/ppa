@@ -45,6 +45,23 @@ SHA512: 8c4f1b9f8895fd1c4802017817b1639862d41c46e04e7d6ab5be718293e7bfb92bf9eedb
 Homepage: https://github.com/atomixcloud/kstat
 Description: Kstat: Advanced file stat program.
 
+Package: ktags
+Architecture: all
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 13
+Filename: pool/main/ktags/ktags_1.0-0_all.deb
+Size: 3460
+MD5sum: f3c889851936caa4d341043ea16b2f50
+SHA1: 6f5a3710b21df81b944577ade9c06aea5fba8507
+SHA256: 53a910e7a8b623c0da142a038a16f9acc16308d62c1e8d6c99b4c82527429de2
+SHA512: c429c68450aa36edcf4a363e680f0d87483ae3f082b48274a8e5050c4af0eca06e8f65d316f34dda9909abccd544c84fab14d3d01f364a54a6a2d1c946345f73
+Homepage: https://github.com/atomixcloud/ktags
+Description: Source code tagging and navigation tool.
+
 Package: ktools
 Architecture: aarch64
 Version: 1.0-a
@@ -117,6 +134,21 @@ MD5sum: 22ba3b0bd324ae68c0b055fcec1e05a6
 SHA1: 47201e331e107272be6cbba96740fb8987f6bf32
 SHA256: 701ad99d2853b20a0673cbe79ee2af67cdd519ea96ed8021c0d4c9a5e30b22cd
 SHA512: d88624607f3f3b20c527e24285c0583f544400f57c8605dcd2cbbf563f64af09344c70375fef736a6dc19c877f4a98bd5b4865b5a01f2eae8f1265cb6b106a60
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
+
+Package: ktools
+Architecture: aarch64
+Version: 1.1
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 384
+Depends: file, libexif, kstat
+Filename: pool/main/ktools/ktools_1.1_aarch64.deb
+Size: 76684
+MD5sum: 881087870553bd5009b0b0fde3ecd035
+SHA1: d6e131f10183618449bafd08219c9f2d69ab40d3
+SHA256: 01aa484c36c020ea780b8cfcbefaa5ae76e2fe38a48504c336895300969b9b47
+SHA512: 22ff69b755a11e9947b34333c0dd2b1377d814bd457efd150568549c9a06afcb8261dbae040810dd6512394d017e37de167457d49228dd7c451eeb2037a58298
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 

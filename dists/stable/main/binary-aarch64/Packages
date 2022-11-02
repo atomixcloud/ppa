@@ -15,6 +15,23 @@ SHA512: 57d6bbd05acae1d8cbadaa33ae18caccbbd49416ae3af3131a8a1510951995bfccb30ce4
 Homepage: https://github.com/atomixcloud/kdebuild
 Description: Debian and Termux package builder.
 
+Package: krokit
+Architecture: all
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 13
+Filename: pool/main/krokit/krokit_1.0-0_all.deb
+Size: 3152
+MD5sum: 87b8c43642a0b745107df5123c3df6d4
+SHA1: aa8d0a8dd85634c1a69efc97d075e907c720ca17
+SHA256: 77ba6ca0cb36a0653d0f707bb8cd30b3522046ffd1cd06ad8003be59412e6b7c
+SHA512: a2cac038c842131a24f531cd733b32b0b36d8d9016a4903938ce104686a7e2d82cbbdf74c754423d4ed55f1d03c887cd86144ff01987171569d8fd69e57e6568
+Homepage: https://github.com/atomixcloud/krokit
+Description: Source code tagging and navigation tool.
+
 Package: kstat-static
 Architecture: aarch64
 Version: 1.0

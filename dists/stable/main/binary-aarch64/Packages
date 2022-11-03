@@ -32,6 +32,23 @@ SHA512: a2cac038c842131a24f531cd733b32b0b36d8d9016a4903938ce104686a7e2d82cbbdf74
 Homepage: https://github.com/atomixcloud/krokit
 Description: Source code tagging and navigation tool.
 
+Package: krokit
+Architecture: all
+Version: 1.0-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 14
+Filename: pool/main/krokit/krokit_1.0-a_all.deb
+Size: 3572
+MD5sum: 11267970baf707fd2709b2972b277817
+SHA1: 6b19fd2b8d57ad8e3b61ccb02f9ccfbd24f38ecb
+SHA256: 41d78b50159eb3e50ae66b3e9746057796a2cc1b389404c4f72781a3d1f2468e
+SHA512: f87181339d0c9a693b1bab6cdf4f3c58af5fe04bc9b96e3c1f19d82454248017dec83f782f3336b3f9b74b64c0f714c10a3c55bed97ad6455175e90642c08c4d
+Homepage: https://github.com/atomixcloud/krokit
+Description: Tool to setup OpenGrok source code search engine.
+
 Package: kstat-static
 Architecture: aarch64
 Version: 1.0

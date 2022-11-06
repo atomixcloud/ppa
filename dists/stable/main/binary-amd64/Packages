@@ -1,3 +1,21 @@
+Package: codebrowser
+Architecture: amd64
+Version: 2.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 4350
+Depends: libc6 (>= 2.14), libclang-cpp10, libgcc-s1 (>= 3.0), libllvm10 (>= 1:9~svn298832-1~), libstdc++6 (>= 9)
+Filename: pool/main/codebrowser/codebrowser_2.1-1_amd64.deb
+Size: 509080
+MD5sum: c8d31dcf3cd826252f773a0518a8f460
+SHA1: d8b880a6937f26ed4fe9f4ab355db2ff57dcc444
+SHA256: e5ea12c31c2d6377066a7c02197d2b78576539be8dd9cd3e6d6437387480b7d1
+SHA512: bf61878dd6557385cc7e7062bb771f2c9dec16d8908568a79f57fc3a8448e15880488ca10aa9c1a524caa82a85be1fedb5ef7d01303a2f7c90d77ac4709b3d08
+Homepage: http://woboq.com/codebrowser.html
+Description: Woboq CodeBrowser
+
 Package: libdxalloc-dev
 Architecture: amd64
 Version: 1.0-0

@@ -230,6 +230,23 @@ SHA512: fddaf56a745c85b0b30107b5043813ffd0dfa6658d39a8ba92733256a8e9a04c67fcff2b
 Homepage: https://github.com/atomixcloud/ktags
 Description: Source code tagging and navigation tool.
 
+Package: ktags
+Architecture: all
+Version: 1.0-c
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 15
+Filename: pool/main/ktags/ktags_1.0-c_all.deb
+Size: 3992
+MD5sum: f210f50977cdab099399643a1ff4dabd
+SHA1: 1386ba60f56174680a48773411198a1a11b600da
+SHA256: e36f00ed0030740721a1b5da93463a1e4216cd54de4b5b481d923708d47379f5
+SHA512: 98d6af5d9d1137b8a90a6806f5c7dba340dea1488b6df76a30acaa214f97ce39e90942a97329d19f6638ed083983f689e9c5792ff95393dd5a8a1933087019ad
+Homepage: https://github.com/atomixcloud/ktags
+Description: Source code tagging and navigation tool.
+
 Package: ktools
 Architecture: amd64
 Version: 1.0-a

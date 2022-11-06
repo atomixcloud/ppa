@@ -6,12 +6,20 @@ TOPDIR=$PWD/..
 ARCHS=( amd64 aarch64 )
 
 usage() {
-	echo "Update repository's package index"
-	echo "Usage: $(basename $0) <architecture>"
-	echo "Options:"
-	echo "    Architecture: amd64 and aarch64"
-	echo "    -a  --all  -- Update index for all architectures"
-	echo "    -h  --help -- Show this help menu"
+	cat <<-USAGE
+	Update Package and Release files of mentioned architectures.
+	Usage: $(basename $0) <architecture>
+	Options:
+	    -a  --all  -- Update index for all architectures
+	    -h  --help -- Show this help menu
+	               -- Running script without arguments will update details 
+	                  for all supported architectures (amd64 and aarch64).
+	Example:
+	 $ updaterepo.sh                 # Update release files for all architectures (similar to --all)
+	 $ updaterepo.sh amd64           # Update release files for AMD64 architecture
+	 $ updaterepo.sh amd64 aarch64   # Update release files for AMD64 and ARM64 architectures
+	USAGE
+
 	exit 0
 }
 
@@ -24,26 +32,46 @@ update_all_distros() {
 
 update_distro() {
 	ARCHNAME=$1
-	apt-ftparchive packages --arch $ARCHNAME pool/ > dists/stable/main/binary-$ARCHNAME/Packages
-	gzip -9kf dists/stable/main/binary-$ARCHNAME/Packages
+	DIRPKGFILE=dists/stable/main/binary-$ARCHNAME
+
+	if [ "$ARCHNAME" != "${ARCHS[0]}" ] && [ "$ARCHNAME" != "${ARCHS[1]}" ] ; then
+		echo "Invalid architecture '$ARCHNAME' !!!"
+		exit 1
+	fi
+
+	if [ ! -d $DIRPKGFILE ]; then
+		echo "Invalid path '$DIRPKGFILE': file not exist"
+		exit 1
+	fi
+
+	echo "Updating repository for '$ARCHNAME' ..."
+	apt-ftparchive packages --arch $ARCHNAME pool/ > $DIRPKGFILE/Packages
+	gzip -9kf $DIRPKGFILE/Packages
 }
 
 update_release() {
 	cd dists/stable/
 	cat $TOPDIR/utils/release.conf  > Release
 	apt-ftparchive release . >> Release
+
+	[[ -f InRelease ]] && rm -f InRelease
+	[[ -f Release.gpg ]] && rm -f Release.gpg
+
 	gpg --clearsign -o InRelease Release
 	gpg -abs -o Release.gpg Release
 }
 
-#main()
-if [ $# -lt 1 ]; then
-	echo "$(basename $0): invalid arguments !!!"
-	echo "Try with '--help' for more info."
-	exit 1
-fi
+#------------------------------
+# Main procedure starts here
+#------------------------------
 
 cd $TOPDIR
+
+if [ $# -lt 1 ]; then
+	update_all_distros;
+	update_release;
+	exit 0
+fi
 
 GETOPTS=$(getopt -o ah --long all,help -- "$@")
 [[ "$?" != "0" ]] && usage
@@ -65,10 +93,10 @@ do
 	esac
 done
 
-ARCHS=( $@ )
-for ARCH in "${ARCHS[@]}"
+ARGV=( $@ )
+for ARG in "${ARGV[@]}"
 do
-	update_distro $ARCH
+	update_distro $ARG
 done
 
 update_release;

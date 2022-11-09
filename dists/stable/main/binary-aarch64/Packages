@@ -149,91 +149,16 @@ Description: Source code tagging and navigation tool.
 
 Package: ktools
 Architecture: aarch64
-Version: 1.0-a
+Version: 1.1-a
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 388
-Depends: file, ctags, cscope, libexif, kstat
-Filename: pool/main/ktools/ktools_1.0-a_aarch64.deb
-Size: 76012
-MD5sum: 2179e99a91e36569dcd8bf90e2889667
-SHA1: 6c33fcc64abb3bf13b721515c522b897630a897a
-SHA256: 42ef938877dd040d8f90c5ebff8e87788fc192c83714ba751ad20c5ff958a944
-SHA512: b9d81fc1c3d02830240818acc0c1248c5e96da472c268778a8d07de98046ebe786847858293d50b0f754192b4c5e04d7d795dd35bb2118dacbc583332e237b9a
-Homepage: https://github.com/atomixcloud/ktools
-Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
-
-Package: ktools
-Architecture: aarch64
-Version: 1.0-b
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 388
-Depends: file, ctags, cscope, libexif, kstat
-Filename: pool/main/ktools/ktools_1.0-b_aarch64.deb
-Size: 75992
-MD5sum: 8aff584fbe61dfec7ce0b73a62b6162f
-SHA1: dbf3e8ba33e112b98e1d0be64ea3c6aa7c6930ea
-SHA256: a020f6b55abf6cba77e04d7a879dc9d7f4803130cae2fd748311858aba7fdd2a
-SHA512: f22fb4df3e3ecd22b37aead7c443f8217dc963236acfc89fde0e3fbe2fd7caea0b9e3fe0e8971a225adbc7251064b4bd351129ba806ca22384359e47e183f3b9
-Homepage: https://github.com/atomixcloud/ktools
-Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
-
-Package: ktools
-Architecture: aarch64
-Version: 1.0-c
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 388
-Depends: file, ctags, cscope, libexif, kstat
-Filename: pool/main/ktools/ktools_1.0-c_aarch64.deb
-Size: 76040
-MD5sum: 80b1268f38ff18414e7be9d6b04f24be
-SHA1: 7788665b983f023ea4d4970ee32cf6aebbf2ec75
-SHA256: a8ffc61d85c592d99caf4d57db8bf5b115aac1d99e97448384125e55853a112e
-SHA512: 3ae1dd0432368b989207a3b5ec5ddac82a56891cc6ebd1d4da9fda9ce6c23b6ce6acb23c89ebecdcc1540373e10b0793331117c67f7a645b779660499bf0faf9
-Homepage: https://github.com/atomixcloud/ktools
-Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
-
-Package: ktools
-Architecture: aarch64
-Version: 1.0-d
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 384
-Depends: file, ctags, cscope, libexif, kstat
-Filename: pool/main/ktools/ktools_1.0-d_aarch64.deb
-Size: 76080
-MD5sum: fb44560ff948ad5b7d8fc637cf3cafc2
-SHA1: e72baeba80234f092be52f4457c594fdc178e377
-SHA256: 6c6927a1a2d85cbdad7495f5753f33c8176effba561483acd6f570b377ef0f22
-SHA512: 8e892ad67178d38ac00851aa92318dabedf603c674a4904f1bffba525e6e6c04cbc84951f3f8e9547a8bfbbadb99d7810b30ce48df05f9573c7f8f7604beb511
-Homepage: https://github.com/atomixcloud/ktools
-Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
-
-Package: ktools
-Architecture: aarch64
-Version: 1.0-e
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 388
-Depends: file, ctags, cscope, libexif, kstat
-Filename: pool/main/ktools/ktools_1.0-e_aarch64.deb
-Size: 77000
-MD5sum: 22ba3b0bd324ae68c0b055fcec1e05a6
-SHA1: 47201e331e107272be6cbba96740fb8987f6bf32
-SHA256: 701ad99d2853b20a0673cbe79ee2af67cdd519ea96ed8021c0d4c9a5e30b22cd
-SHA512: d88624607f3f3b20c527e24285c0583f544400f57c8605dcd2cbbf563f64af09344c70375fef736a6dc19c877f4a98bd5b4865b5a01f2eae8f1265cb6b106a60
-Homepage: https://github.com/atomixcloud/ktools
-Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
-
-Package: ktools
-Architecture: aarch64
-Version: 1.1
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 384
+Installed-Size: 468
 Depends: file, libexif, kstat
-Filename: pool/main/ktools/ktools_1.1_aarch64.deb
-Size: 76684
-MD5sum: 881087870553bd5009b0b0fde3ecd035
-SHA1: d6e131f10183618449bafd08219c9f2d69ab40d3
-SHA256: 01aa484c36c020ea780b8cfcbefaa5ae76e2fe38a48504c336895300969b9b47
-SHA512: 22ff69b755a11e9947b34333c0dd2b1377d814bd457efd150568549c9a06afcb8261dbae040810dd6512394d017e37de167457d49228dd7c451eeb2037a58298
+Filename: pool/main/ktools/ktools_1.1-a_aarch64.deb
+Size: 94568
+MD5sum: cd989950ca97a4c0874ee8a68ff30334
+SHA1: 805ed93a7a943e76f374180eab880645cc000e8f
+SHA256: d2fbc1509feb07fbb29009fdf49a746cc6691ee78e18f90339c48eea64784331
+SHA512: 3a07b83731075594a58183bde917a046dc16b503a70873ace55fa06b42a6135ff74c9fb373670e3844013beb11ef90e9fa885f52dfe4576181e10a8e23f4432c
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 

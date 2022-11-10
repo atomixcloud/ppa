@@ -159,6 +159,24 @@ SHA512: 238e059390cd0a50dacbfe3e3bc6c1bfbbff04b538e98ad448f2397d79d18cc9bb29feac
 Homepage: https://github.com/atomixcloud/kstat
 Description: Kstat: Advanced file stat program
 
+Package: kstat
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 20
+Depends: libkstat (= 1.0-a), libc6 (>= 2.4)
+Filename: pool/main/kstat/kstat_1.0-a_amd64.deb
+Size: 3228
+MD5sum: e96fcaf831d378b79dfd0622220f9cb4
+SHA1: e692a14cc317f066d518bb33a2ec8f3e4b57ab2e
+SHA256: 5962f4fc3953f5e69e29af32896348ef463823ff192a41c9aea706f2a6de223f
+SHA512: 83165e8f911145cf4a6223a282559361521f43ae32c65ae44c0e9cbc9f99f98f73d37f2880fedae666607d16263c5c651a31da576f60d34be8a8397b194a8cae
+Homepage: https://github.com/atomixcloud/kstat
+Description: Kstat: Advanced file stat program
+
 Package: libkstat-dev
 Architecture: amd64
 Version: 1.0-0
@@ -178,6 +196,25 @@ SHA512: d6ec98a6fc0809ee48f50c4bb68dc18e7a102f379a9f0a5456a2f166f909c81dea5e7c63
 Homepage: https://github.com/atomixcloud/kstat
 Description: This package contains the libkstat development files
 
+Package: libkstat-dev
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: kstat
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 21
+Depends: libkstat (= 1.0-a)
+Filename: pool/main/kstat/libkstat-dev_1.0-a_amd64.deb
+Size: 4116
+MD5sum: c1bf18baa0da668581d52596a8b27b4a
+SHA1: 5434803a14f114e18e073436194d3f6b44f540df
+SHA256: e9767202cef7b0cb22b6933853a989d7c343249b9f1c1cc13cf6af5b0097ed70
+SHA512: ffba93ac886d8c464cb70376ea187b759a32b4de05a5283a49c276a95bbc9d48dfd5337959ee01272981205dcf3bd266e9b8b8ec8142fde61f948dc41f78295e
+Homepage: https://github.com/atomixcloud/kstat
+Description: This package contains the libkstat development files
+
 Package: libkstat
 Architecture: amd64
 Version: 1.0-0
@@ -194,6 +231,25 @@ MD5sum: 5af3a06080bd4b050caa71684e9f5235
 SHA1: 8cc54b8ce2d6dd6edbfa797330e6813460eded74
 SHA256: 8e0a152cb1bbb164ed121cb5ac45771b8a0f3a5008cc49750fe3f15e26be2faa
 SHA512: 689634f8095abd865f1b5204407d88ce074b9a3e34063eb8e7ad37ffa973575f0fb4ac69d51e848b4f00e9bbf063c517febbbfbdc274b3c0604a67437be9f93c
+Homepage: https://github.com/atomixcloud/kstat
+Description: This package contains the libkstat binaries
+
+Package: libkstat
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kstat
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.4), libmagic1 (>= 5.12)
+Filename: pool/main/kstat/libkstat_1.0-a_amd64.deb
+Size: 4596
+MD5sum: a683e3619d4ce36f4100d564ba6fed96
+SHA1: 9dd313156cd818403d39c2316099e961bd59d65b
+SHA256: 9c3c8fcb09cfeaaf70cc095119bd390ee2f572a99e04113206677b93ebe299bb
+SHA512: c64aa466bab8296e9ecdbc359ea7f4126815735e42d737a5cd3edab4e1271dc4d98f17553c002bc944eeae6c13273833e312dae82dfc149b168980d5f5dd8bdd
 Homepage: https://github.com/atomixcloud/kstat
 Description: This package contains the libkstat binaries
 

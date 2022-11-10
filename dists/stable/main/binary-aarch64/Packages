@@ -51,6 +51,21 @@ Description: Tool to setup OpenGrok source code search engine.
 
 Package: kstat-static
 Architecture: aarch64
+Version: 1.0-a
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 48
+Depends: kstat (= 1.0-a)
+Filename: pool/main/kstat/kstat-static_1.0-a_aarch64.deb
+Size: 5668
+MD5sum: adc887de143643a14728dfb02cfe534e
+SHA1: 39018ba733617500ca03bd67d590b69c40594973
+SHA256: 2824fa3382cd74fbba7c3130f851670d8f347eae77c1f22666b92bd1ade0c95b
+SHA512: cbb39bbb8ba5bfa57f5d5fd6a2ab7bb4347a369d22a7d0c68e08693297ecc1e2ebd20625a3112bc92ffd400307b6f8d159d3eefa2d9f61de7804efaaa78fb517
+Homepage: https://github.com/atomixcloud/kstat
+Description: Static libraries for kstat
+
+Package: kstat-static
+Architecture: aarch64
 Version: 1.0
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 48
@@ -63,6 +78,21 @@ SHA256: a7ee4bf3eb3b4924987ec04d8d118b1fc1e0236a76da765bbd5dc1a4cd038008
 SHA512: 24a607586bdff569153d3ac3692184f715bec12d490138c530afb59147dd6411511a33a96e9ae85056709331403379188ea5832c48f42e2aab87598a27b48c5e
 Homepage: https://github.com/atomixcloud/kstat
 Description: Static libraries for kstat
+
+Package: kstat
+Architecture: aarch64
+Version: 1.0-a
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 60
+Depends: file
+Filename: pool/main/kstat/kstat_1.0-a_aarch64.deb
+Size: 5732
+MD5sum: d52bc3b6ef22d93a5f40ab4c4b521c96
+SHA1: 9a0ea71852b35485bfdfd06ba3573df1921cf80e
+SHA256: 1d0cf6e385209b738015b3c40afcbaa9fa665579609c2c508d0088b509046d41
+SHA512: b672cf9de33bdb68159fff0cd924214f8e2d012721f29e87fd8d21ffc48be9fc9c681056db4b2ba6ffac7fc81c6957299992e34c1a4d5849277e39f2e200bf54
+Homepage: https://github.com/atomixcloud/kstat
+Description: Kstat: Advanced file stat program.
 
 Package: kstat
 Architecture: aarch64

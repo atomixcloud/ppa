@@ -425,6 +425,23 @@ SHA512: 99c74dcde5e1280e59843a04b27fc66635095a964381b38c28549b4d669149b7d4625759
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 
+Package: opengrok
+Architecture: amd64
+Version: 1.7-39
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 76198
+Filename: pool/main/opengrok/opengrok_1.7-39_amd64.deb
+Size: 78001832
+MD5sum: 35700523d0c87e9d45415a74bad5ed13
+SHA1: dbc912c80bf584dda47e399041e2bc3eb0640d57
+SHA256: 1da3509f8a881a460a602d4f564d00040c0cc37f42dce77559293e37d5ad7e1b
+SHA512: 26d18db5ccb9a58c176c43f52ee1cb87de84cce85fd1bd762755bb3c18bf4e9cbf28d8f88c682df35969c73b75f77d8edb970fd8059b5a916980ec32f96ef8f5
+Homepage: https://oracle.github.io/opengrok
+Description: OpenGrok is a fast source code search and cross reference engine.
+
 Package: scrollkeeper
 Architecture: amd64
 Version: 0.3.14-0
@@ -442,4 +459,21 @@ SHA256: 239683a639d400b98e09f36253f999ed3862728cb0821b5ee45833b3ce51a4fd
 SHA512: ebd1570c9df8d3958d7d75ce088f7a4874c9f436afb7cad05c7f523a69dba125494225dcd85f6e5071f27d83dd799e661616209a49c087c69a833e83340f411c
 Homepage: http://scrollkeeper.sourceforge.net
 Description: ScrollKeeper is a cataloging system for documentation on open systems.
+
+Package: tomcat
+Architecture: amd64
+Version: 10.0-27
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 11722
+Filename: pool/main/tomcat/tomcat_10.0-27_amd64.deb
+Size: 11986404
+MD5sum: a20efe8ba147436e4d1524b908751387
+SHA1: 0ff5bfad1f03bff1741e157b277f4a9f524f25f6
+SHA256: a35143b819fdef0bbecddd7d01b5e23c249c6e85a3d5efa5d43f5866cd56e40f
+SHA512: 336328b5d8517d8ecdb9f459f58a4a77494ca3d6ac831e68f7f44052967dd41b711923eb8be38f46acd341f7ad196b76ea543819ac51a35cba80be556e23b73d
+Homepage: https://tomcat.apache.org
+Description: Apache Tomcat is an open source web server and servlet container.
 

@@ -83,6 +83,62 @@ SHA512: 8aaff7838ad033fdba3f1fdb122af85cc3fcadd4d25d522bd6d50e39cba833d7d8c88b1b
 Homepage: https://github.com/atomixcloud/krokit
 Description: Tool to setup OpenGrok source code search engine.
 
+Package: kstat
+Architecture: arm64
+Version: 1.0-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 16
+Depends: libkstat (= 1.0-a), libc6 (>= 2.17)
+Filename: pool/main/kstat/kstat_1.0-a_arm64.deb
+Size: 3076
+MD5sum: 994f39c7935c7990a161f7d2d6eb2265
+SHA1: fcffe8390b49e77bb6a7dbcf2bb8a3858188c043
+SHA256: e9e203fec9001a8d0e6df9954961b0215a1cc9a9c4247e4ad0acf5bc517f2fe2
+SHA512: 2b70be35df75a7116fbeda1af0d7f871668688b62fe0f534aa8d325525d8f0a8e6ffd44be579c6bcba0bae305c1f6420150d38670acaea6f8f6f024c81a339fd
+Homepage: https://github.com/atomixcloud/kstat
+Description: Kstat: Advanced file stat program
+
+Package: libkstat-dev
+Architecture: arm64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: kstat
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 22
+Depends: libkstat (= 1.0-a)
+Filename: pool/main/kstat/libkstat-dev_1.0-a_arm64.deb
+Size: 4116
+MD5sum: b4e80affcfca06bf2b7f0c35370fd564
+SHA1: d39ab1517e46a5dafcf3d8d1e6fe269c59c47120
+SHA256: 922ca6577d390fb905d540354a49dcecb76158562b285626d07b74c58e109a33
+SHA512: 43a0680e9ca0a0dfae56bff763e06a589525132453142c227ad5d669afcb47fc94eb5284e06a78d7bc49a8df2d5ea8fe52f5b425878e42ec0ffbbd59af8c9a8f
+Homepage: https://github.com/atomixcloud/kstat
+Description: This package contains the libkstat development files
+
+Package: libkstat
+Architecture: arm64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kstat
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 23
+Depends: libc6 (>= 2.17), libmagic1 (>= 5.12)
+Filename: pool/main/kstat/libkstat_1.0-a_arm64.deb
+Size: 4152
+MD5sum: 00bd5343d783af2b7ea45c2b965dc6d3
+SHA1: d467b0d09618dfe206e54030a30c835e0dd8d663
+SHA256: 3780cf501b19a5bad77dd74c640ac588bf4941b51b6f4e2eab27c73ce53c3b6c
+SHA512: f3370a80c67da6868bf206e4fa9ceefec4dd4dbfb8e8cfc8bc4e61f7bfcb884da14e9e35923649488ede22dab36caa7ab6be0d505dbd357a0f41a16f4876d8eb
+Homepage: https://github.com/atomixcloud/kstat
+Description: This package contains the libkstat binaries
+
 Package: ktags
 Architecture: all
 Version: 1.0-0

@@ -1,0 +1,187 @@
+Package: kdebuild
+Architecture: all
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 19
+Filename: pool/main/kdebuild/kdebuild_1.0-0_all.deb
+Size: 4028
+MD5sum: 56a65aa07b35abb2acc1b5a079e94fd5
+SHA1: 250c32d6b5bc30330f793bf4ee3753597535a698
+SHA256: 49955911812512787ec86c19f9a431edf364c85736b41e41948c1aa3f5da3999
+SHA512: 57d6bbd05acae1d8cbadaa33ae18caccbbd49416ae3af3131a8a1510951995bfccb30ce4da3e85159e72770bc0e68bb95d54ae873d2d1526277df262e71ed5da
+Homepage: https://github.com/atomixcloud/kdebuild
+Description: Debian and Termux package builder.
+
+Package: krokit
+Architecture: all
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 13
+Filename: pool/main/krokit/krokit_1.0-0_all.deb
+Size: 3152
+MD5sum: 87b8c43642a0b745107df5123c3df6d4
+SHA1: aa8d0a8dd85634c1a69efc97d075e907c720ca17
+SHA256: 77ba6ca0cb36a0653d0f707bb8cd30b3522046ffd1cd06ad8003be59412e6b7c
+SHA512: a2cac038c842131a24f531cd733b32b0b36d8d9016a4903938ce104686a7e2d82cbbdf74c754423d4ed55f1d03c887cd86144ff01987171569d8fd69e57e6568
+Homepage: https://github.com/atomixcloud/krokit
+Description: Source code tagging and navigation tool.
+
+Package: krokit
+Architecture: all
+Version: 1.0-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 15
+Filename: pool/main/krokit/krokit_1.0-a_all.deb
+Size: 3596
+MD5sum: 1ae0d71b7ccc576ed84386188d16dbeb
+SHA1: d4454f8b8572c2b592ba95ed5c39eef2d74a8e8b
+SHA256: 12c54a882ecb0c7b72c244804640182ec824e9112b8c18c21b6732c0ba6dc39b
+SHA512: 7f3fdb7c78f3381af507f7240bc6ddd7bfe046da7d5491fed2ad6b1ce4cae15403348b37470678d37c27a0e5bc29291008d8bd6fa4661637b086dd7622915a80
+Homepage: https://github.com/atomixcloud/krokit
+Description: Tool to setup OpenGrok source code search engine.
+
+Package: krokit
+Architecture: all
+Version: 1.0-b
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 15
+Filename: pool/main/krokit/krokit_1.0-b_all.deb
+Size: 3596
+MD5sum: 4e31a83f44530317b999195cbb20c748
+SHA1: c3dc21778325bff7193b5d56752e660c311de598
+SHA256: 9e0dea44a47447ca255bda5d43250935ab90de10d1ce7b2b1a76ccde3ecb1140
+SHA512: 4830c06ec21aa80d3240fcbf9ae54fc1808927b8cee672a9a0548e8933a31ae06fa34a878f9e9d6093cb34fffcd22f492c44b75ea72bc9d0c7af0588b381626a
+Homepage: https://github.com/atomixcloud/krokit
+Description: Tool to setup OpenGrok source code search engine.
+
+Package: krokit
+Architecture: all
+Version: 1.0-c
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 15
+Filename: pool/main/krokit/krokit_1.0-c_all.deb
+Size: 3732
+MD5sum: b89bc74760219c7758bbb9f18036a042
+SHA1: 6209468fb4b860da9bc2890874bae48f56b7f699
+SHA256: 0d17ca3e6e1dc722a06f07f36ff8b0f983ab74d2f5f00525be191e82ca4c1c66
+SHA512: 8aaff7838ad033fdba3f1fdb122af85cc3fcadd4d25d522bd6d50e39cba833d7d8c88b1bf4da344ee89f37c6c1729c0218cda5f037df4938dbbed28de926173a
+Homepage: https://github.com/atomixcloud/krokit
+Description: Tool to setup OpenGrok source code search engine.
+
+Package: ktags
+Architecture: all
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 13
+Filename: pool/main/ktags/ktags_1.0-0_all.deb
+Size: 3460
+MD5sum: f3c889851936caa4d341043ea16b2f50
+SHA1: 6f5a3710b21df81b944577ade9c06aea5fba8507
+SHA256: 53a910e7a8b623c0da142a038a16f9acc16308d62c1e8d6c99b4c82527429de2
+SHA512: c429c68450aa36edcf4a363e680f0d87483ae3f082b48274a8e5050c4af0eca06e8f65d316f34dda9909abccd544c84fab14d3d01f364a54a6a2d1c946345f73
+Homepage: https://github.com/atomixcloud/ktags
+Description: Source code tagging and navigation tool.
+
+Package: ktags
+Architecture: all
+Version: 1.0-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 13
+Filename: pool/main/ktags/ktags_1.0-a_all.deb
+Size: 3464
+MD5sum: 58c26ba51f88d6db57c08233d186ce5b
+SHA1: d2fe926a62be69e38ad8286835126d24ed5ce077
+SHA256: 46662977fdb134421521edeeec299c73a6785b9d9bb39584f40ac2d8b0b51a6d
+SHA512: ed42f528f45e7dd6ffddfe677b3ae656257687d63b3ae3ff63b9fac29e92f9d996963c3e4be739f6be0b21c93dc95f384473f2e2c1fd2d3d4d0110d98cbd5576
+Homepage: https://github.com/atomixcloud/ktags
+Description: Source code tagging and navigation tool.
+
+Package: ktags
+Architecture: all
+Version: 1.0-b
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 15
+Filename: pool/main/ktags/ktags_1.0-b_all.deb
+Size: 3908
+MD5sum: 6df8ebf63c0aedeb5fc18c62835c0fe0
+SHA1: 2b40c616546dc337bae28c2047a7d54807d697dc
+SHA256: a35472db2d9573f52ff2768a097b68753f668ff074eafc48ee5d0493787a589c
+SHA512: fddaf56a745c85b0b30107b5043813ffd0dfa6658d39a8ba92733256a8e9a04c67fcff2b5a0f07950ee97fc7607d81b735d9ea95d7a722c1b1837382faa7d909
+Homepage: https://github.com/atomixcloud/ktags
+Description: Source code tagging and navigation tool.
+
+Package: ktags
+Architecture: all
+Version: 1.0-c
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 15
+Filename: pool/main/ktags/ktags_1.0-c_all.deb
+Size: 3992
+MD5sum: f210f50977cdab099399643a1ff4dabd
+SHA1: 1386ba60f56174680a48773411198a1a11b600da
+SHA256: e36f00ed0030740721a1b5da93463a1e4216cd54de4b5b481d923708d47379f5
+SHA512: 98d6af5d9d1137b8a90a6806f5c7dba340dea1488b6df76a30acaa214f97ce39e90942a97329d19f6638ed083983f689e9c5792ff95393dd5a8a1933087019ad
+Homepage: https://github.com/atomixcloud/ktags
+Description: Source code tagging and navigation tool.
+
+Package: ktags
+Architecture: all
+Version: 1.0-d
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 14
+Filename: pool/main/ktags/ktags_1.0-d_all.deb
+Size: 3648
+MD5sum: 05c05ed7a0d8e460889c665b2808a539
+SHA1: e961557a13c2ef5fce5f160662433535b16fe3c4
+SHA256: d20adc14958e3bea24e94e61712dac689105ee3d77f8c89ebcdc2f1658c4266d
+SHA512: e34461408ebde8f1aca529707fcb2f9f1e178c92717515c2971093204d8c2f0520b7e6f24b886f943c7b24559532efcb9da6f46261e3b07912858ecc27de0890
+Homepage: https://github.com/kribakarans/ktags
+Description: Source code tagging and navigation tool.
+
+Package: ktags
+Architecture: all
+Version: 1.0-e
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 14
+Filename: pool/main/ktags/ktags_1.0-e_all.deb
+Size: 3664
+MD5sum: 99a27393d81fe37a7238e6723bca7a0b
+SHA1: 42dcf9d02bed539ab86645c5cd424abd8e95a267
+SHA256: 25fbf8e98ebf0d877ee0ad8c7534c9593f7b38d249a310eee097a81676bab50a
+SHA512: ae68a91c02d8960fc588fe7d2ae1490ec2033b2ce93bcd4ce30584da672e75d0cd4edc220d3b5ca78c9296ea0d0227e85a81d24beb6ee581d4240e3ab774d8c5
+Homepage: https://github.com/kribakarans/ktags
+Description: Source code tagging and navigation tool.
+

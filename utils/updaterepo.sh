@@ -3,7 +3,7 @@
 set -eu
 
 TOPDIR=$PWD/..
-ARCHS=( amd64 aarch64 )
+ARCHS=( amd64 arm64 aarch64 )
 
 usage() {
 	cat <<-USAGE
@@ -34,7 +34,9 @@ update_distro() {
 	ARCHNAME=$1
 	DIRPKGFILE=dists/stable/main/binary-$ARCHNAME
 
-	if [ "$ARCHNAME" != "${ARCHS[0]}" ] && [ "$ARCHNAME" != "${ARCHS[1]}" ] ; then
+	if [ "$ARCHNAME" != "${ARCHS[0]}" ] && \
+	   [ "$ARCHNAME" != "${ARCHS[1]}" ] && \
+	   [ "$ARCHNAME" != "${ARCHS[2]}" ]; then
 		echo "Invalid architecture '$ARCHNAME' !!!"
 		exit 1
 	fi

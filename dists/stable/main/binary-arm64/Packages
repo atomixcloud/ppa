@@ -241,3 +241,21 @@ SHA512: ae68a91c02d8960fc588fe7d2ae1490ec2033b2ce93bcd4ce30584da672e75d0cd4edc22
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
 
+Package: ktools
+Architecture: arm64
+Version: 1.1-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 447
+Depends: libc6 (>= 2.17), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
+Filename: pool/main/ktools/ktools_1.1-a_arm64.deb
+Size: 96644
+MD5sum: 8397f1af8c2e14cbd724c2adb309d4c2
+SHA1: d23a4b3359a6fe155e896fb68f5d3b9fa5af06fa
+SHA256: 4bfda0a7763bce2643a6ae0b10889d12067484c8032e4cbaec077117147b7042
+SHA512: 2ece519464d8b1149e4c73eb1cf191c8b1504e09073c9dde392f1871b696796e96dab3d4bdc6d9eeca48554ecf9a14d42c68855f7fa469ff7be3b3b49b41ebb9
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
+

@@ -35,6 +35,25 @@ SHA512: 60b6ec5538db7576ab0c2d37b9e098f59d5539a829f56a99aa1abf59e4f0445349a4b94c
 Homepage: https://github.com/atomixcloud/dxalloc
 Description: Dxalloc shared library development files
 
+Package: libdxalloc-dev
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dxalloc
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 38
+Depends: libdxalloc (= 1.0-a)
+Filename: pool/main/dxalloc/libdxalloc-dev_1.0-a_amd64.deb
+Size: 7680
+MD5sum: f5bbc90a84689b9ed507d22c4f95d3bf
+SHA1: e755978866f6a260c64a143ab915240213328021
+SHA256: 56db08bb538a06643a738a942c87c69640d982231e8569af588d2eaa35306fea
+SHA512: df18356409c421cfad81fc865c3951302d836936f5ddbfe8dcb5083ed0a2fae1b1b2b8cbf4ad79382b947c036428477eb5b2f0578165e7dc4a587a9be4097779
+Homepage: https://github.com/atomixcloud/dxalloc
+Description: Dxalloc shared library development files
+
 Package: libdxalloc
 Architecture: amd64
 Version: 1.0-0
@@ -53,6 +72,25 @@ SHA256: 7defa2b1b652c0c6aa1fa3749c4a8f8efaa07fe6fdae1bde275131675c4e53cb
 SHA512: 474b84e3017be22b44b643ab77cdb0e09e29f5420285e1cb2f36973650d1a6d7185777b42e8d85ffd3d723614e3635090e3040effdc6337b25297b5ccdee8aec
 Homepage: https://github.com/atomixcloud/dxalloc
 Description: Dxalloc shared library
+
+Package: libdxalloc
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dxalloc
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 79
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.31.8)
+Filename: pool/main/dxalloc/libdxalloc_1.0-a_amd64.deb
+Size: 30244
+MD5sum: 74ee0402741462e4b8629693ec3643ba
+SHA1: 1623155066b5a32e8f2cfe67564af7dffdd88857
+SHA256: f5d369c207cbd3b1ceb6551856508836fcf72669ec0691cb2b831ce252822972
+SHA512: 4895db67ef72c24ae22f900402ccfc0d20e11c87d3feb62568cb74e4ce76d5e07c4c230fff494516c754046bdea66c7f16343a3a64165f16d8e8eff6b5103184
+Homepage: https://github.com/atomixcloud/dxalloc
+Description: Xtended dynamic memory allocation with inbuilt heap memory tracker library
 
 Package: glade-2
 Architecture: amd64

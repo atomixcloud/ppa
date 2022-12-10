@@ -486,14 +486,14 @@ Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 515
+Installed-Size: 510
 Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
 Filename: pool/main/ktools/ktools_1.1-b_amd64.deb
-Size: 108376
-MD5sum: 2d8027c4d118b7fff24f274ee86e8091
-SHA1: a6a99c76c559f4c16c43f44fae24bea56c3f4cae
-SHA256: 99581882f5e801f7a6168dbfe4c925adcd2c6c6498e0cc9403582cb86104cddd
-SHA512: b9bb08de21e92cb905bc8b345b7182614a9ac5daa4b8f59eb2b8c5bda96203b6d22af985466fc4402e3c4cabbb86613af6a34c66f4842336c68f11c88225bd3a
+Size: 107580
+MD5sum: 80c23218d715459b8f0a6f2c29201bc6
+SHA1: dabf96a6292eb924e5cc924614905c8a01ef86ff
+SHA256: 7e248ffb4215ca0267438922a29c48cb316d6af2c43cb3b35a6b707f2eee90d0
+SHA512: 0236dd4b2b4b2404666bd17f534b864235f64d718348c09038ab42e750ad735e5f933df5755ffbfa2c88dbf0551056313e5065a5efe9cbc8445d68347cd72077
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 

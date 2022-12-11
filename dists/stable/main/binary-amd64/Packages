@@ -461,6 +461,44 @@ SHA512: 8aa7dc34b1749a82636799a4de660f20fed26769ec09475168b58443d94a054b6cde60ea
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
 
+Package: libktest-dev
+Architecture: amd64
+Version: 1.0-0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: ktest
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 32
+Depends: libktest (= 1.0-0)
+Filename: pool/main/ktest/libktest-dev_1.0-0_amd64.deb
+Size: 5064
+MD5sum: dbe4ba4aa533d610ca32469b87d24deb
+SHA1: 69c40ad2e784cd6ee6fd63b55b5611d04053a120
+SHA256: 777b917e4d173e8768fb43932c7eaf6ea881c99fb4bd2a921d2a2535bb02a63d
+SHA512: c18c74c66155e65f09a2491383b859167bf7287cc269958ed0c186c98f4654933f5607d58767fe5819bdb99e56df1c97338f4dbf8e9ac8f8aa6ff4ad3cbf1140
+Homepage: https://github.com/kribakarans/ktest
+Description: Ktest shared library development files
+
+Package: libktest
+Architecture: amd64
+Version: 1.0-0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ktest
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 22
+Depends: libc6 (>= 2.3.4)
+Filename: pool/main/ktest/libktest_1.0-0_amd64.deb
+Size: 4224
+MD5sum: a0fcb5c5dc6910e9a028f5952dbfa07a
+SHA1: 87784c772b38fc1f3cae181dd1098f10e174ff0c
+SHA256: 5586efd89c77ad67b3ca619554d330fd8dadae24f4e1fb74c5da6d9883ed5101
+SHA512: 32282b7e3f86440a6fd8d5e8e6b1a331ba825d6e7962cf4f2c1e88f2d4a427174ef0f3d858289c41b89a2bf398af3c019635548824ad4d1ebba82ef8eca6c05c
+Homepage: https://github.com/kribakarans/ktest
+Description: Ktest shared library
+
 Package: ktools
 Architecture: amd64
 Version: 1.1-a

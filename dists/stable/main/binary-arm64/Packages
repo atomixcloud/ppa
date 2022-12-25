@@ -293,3 +293,40 @@ SHA512: 2ece519464d8b1149e4c73eb1cf191c8b1504e09073c9dde392f1871b696796e96dab3d4
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 
+Package: liblogit-dev
+Architecture: arm64
+Version: 1.0-0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: liblogit
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 22
+Depends: liblogit (= 1.0-0)
+Filename: pool/main/logit/liblogit-dev_1.0-0_arm64.deb
+Size: 4752
+MD5sum: baea74bae63e05b15e2188f803a5033a
+SHA1: 01c57083bcf7c419d332598aaec12347307db24a
+SHA256: 81be4bcdadbf1b3aa77f134c252b8d5c18d8894253ce57d49e40467ec1a44db5
+SHA512: 3630e335b2cbed17113767181c3d2a0753b13abd5813c7a8d35a0d6c551bae8a8639bc12c74f734aadb925e4aad1a4465c3b677f2a7cdc5cdb4311358d1660ff
+Homepage: https://github.com/atomixcloud/liblogit
+Description: Development files for Logit library
+
+Package: liblogit
+Architecture: arm64
+Version: 1.0-0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 142
+Depends: libc6 (>= 2.17)
+Filename: pool/main/logit/liblogit_1.0-0_arm64.deb
+Size: 4660
+MD5sum: f175201cf0c59abe5d475615b6c8498e
+SHA1: 882d89d828eb7fa13100a16e244f7005f3ef2ca6
+SHA256: 648ecfed729b55d3150a620e153b11ee078f888ef3746773479c413707d2bd09
+SHA512: 6005970cf6a82515612396521cd8cfe89d5efee1036589d892249e6cf91d606b6740c9aa04fed292c253dc0a39862bea6bfb4db7da6ac3c3bd353ac6dac89099
+Homepage: https://github.com/atomixcloud/liblogit
+Description: Debug message logger library
+

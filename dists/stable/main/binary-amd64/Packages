@@ -546,13 +546,13 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 21
 Depends: liblogit (= 1.0-0)
 Filename: pool/main/logit/liblogit-dev_1.0-0_amd64.deb
-Size: 4644
-MD5sum: fa926d519e164afcd97588a9680657f0
-SHA1: 476178a337221ef25462c04d2c769751fdd7e76d
-SHA256: c0b0585090b943195b2e39a866887f39fc189c6b06adf5c8c40924524dde87c9
-SHA512: 6081fba3184ac606d7f86ed8fbbcc1e9f5e362286b20a04cb0bf7fabe12cc40871fae6e0b3e5e4d1f4b262e8519d4a1a778ef44ac62b246511ed309cd2540274
+Size: 4636
+MD5sum: 45a2a5ea3097861ff5b614a4d1133824
+SHA1: 0e028ba271e5152e959a2517e667fcf0354b7733
+SHA256: cd9946183a6e0ff9236248477d76a6cd7f568add9d559d83bfc63766e4faf61d
+SHA512: fdc07fcfdc59d6e1030deee208410003cb605a76c5f62b49ab48039210625c026b1cb6112ca9e41d3ea365a4aacfeadbad837a73dbbb3c6fc7463e200cec31c9
 Homepage: https://github.com/atomixcloud/liblogit
-Description: Development files for Logit debug message logger library
+Description: Development files for Logit library
 
 Package: liblogit
 Architecture: amd64
@@ -564,13 +564,13 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 22
 Depends: libc6 (>= 2.8)
 Filename: pool/main/logit/liblogit_1.0-0_amd64.deb
-Size: 4696
-MD5sum: 8b85ab23594b608d017f6758dcbca250
-SHA1: ed14d0b9759a143d018834e715a9f2f371a8c084
-SHA256: 4b44450f5edd85bcfed1bdc95ccff632a853c9aff668726f73607e7ca2e705d8
-SHA512: 3db6147a29492159a6490bd4d2d572c0af2deaf5068c9ce68103df42b9654fb6f393223ece7f69fe365337d21e89ce0fa0ebe233eb7fe2b8b1eea2660b144f2a
+Size: 4684
+MD5sum: 7f87320516a82ff02df6628049809d2c
+SHA1: e9ddd4dd697de4e752728f67cad7443436416f4c
+SHA256: 3ec34872cb840e705b14627143393fbdc87186d633703fffe32fd16f777489da
+SHA512: 2f8d2d21d5fbdcf85549602794e5888d78be0763c18c844cd78dbfe09a274bcc16588c24b800f7a0fc3b1108a2c2ae23c8ffb98fdfa9dedb349dcadb9dbbbedc
 Homepage: https://github.com/atomixcloud/liblogit
-Description: Fine tunable debug message logger library
+Description: Debug message logger library
 
 Package: opengrok
 Architecture: amd64

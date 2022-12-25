@@ -1,3 +1,41 @@
+Package: libdxalloc-dev
+Architecture: arm64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dxalloc
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 41
+Depends: libdxalloc (= 1.0-a)
+Filename: pool/main/dxalloc/libdxalloc-dev_1.0-a_arm64.deb
+Size: 8308
+MD5sum: da6e95a9153ff6a83f53bd4994a4725b
+SHA1: 2384b91d835436fa601cd0308cb4f550ce35dc74
+SHA256: b92ecc983b8bd33f76b252e69d1911d29eb1021926802bda7592e13144674488
+SHA512: ae38dd17767d8162500f10027481538aafa42c38cb209e715c14491aa2ab9949e2bc22cd1c7487eccec10d09096c8878468ba2234ebbb678616b27c57b068f43
+Homepage: https://github.com/atomixcloud/dxalloc
+Description: Dxalloc shared library development files
+
+Package: libdxalloc
+Architecture: arm64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dxalloc
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 150
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.31.8)
+Filename: pool/main/dxalloc/libdxalloc_1.0-a_arm64.deb
+Size: 27632
+MD5sum: e03ff550fb5455e159387e262837d4a8
+SHA1: dacfdcfe25335b7251ab4c6dd0011ae4c510c65a
+SHA256: c6eebd8dad1377d0a78948770f217ab2c8e96b6d5e1851897ca7b5f6e9f07dab
+SHA512: 2143aec5f11a0f76f292e44ae5e1c92a1b9e1823966394020203a47401287be0c2a4690b7e0fdcf6c274ede3c736c180f5731ecaa44393b92b237a95076d8851
+Homepage: https://github.com/atomixcloud/dxalloc
+Description: Xtended dynamic memory allocation with inbuilt heap memory tracker library
+
 Package: kdebuild
 Architecture: all
 Version: 1.0-0

@@ -546,11 +546,11 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 21
 Depends: liblogit (= 1.0-0)
 Filename: pool/main/logit/liblogit-dev_1.0-0_amd64.deb
-Size: 4636
-MD5sum: 45a2a5ea3097861ff5b614a4d1133824
-SHA1: 0e028ba271e5152e959a2517e667fcf0354b7733
-SHA256: cd9946183a6e0ff9236248477d76a6cd7f568add9d559d83bfc63766e4faf61d
-SHA512: fdc07fcfdc59d6e1030deee208410003cb605a76c5f62b49ab48039210625c026b1cb6112ca9e41d3ea365a4aacfeadbad837a73dbbb3c6fc7463e200cec31c9
+Size: 4632
+MD5sum: a7fdbf4630436ab63aa480ebf983bc63
+SHA1: 22b746524bccc870aa815def2953462bb0279388
+SHA256: a42b7a6f4e0111f12bf1fbb6a2966686a7072dab5019109c3f6aeeb99b1a157a
+SHA512: 33883acf61e312577c9736fbaaec3a2fdab071c2fff7a71ea581c06591dbb4e2f07fcad84058dd2a82d111b20e9ca429ce09f9da623864000e2d1b362f664b06
 Homepage: https://github.com/atomixcloud/liblogit
 Description: Development files for Logit library
 
@@ -565,10 +565,10 @@ Installed-Size: 22
 Depends: libc6 (>= 2.8)
 Filename: pool/main/logit/liblogit_1.0-0_amd64.deb
 Size: 4684
-MD5sum: 7f87320516a82ff02df6628049809d2c
-SHA1: e9ddd4dd697de4e752728f67cad7443436416f4c
-SHA256: 3ec34872cb840e705b14627143393fbdc87186d633703fffe32fd16f777489da
-SHA512: 2f8d2d21d5fbdcf85549602794e5888d78be0763c18c844cd78dbfe09a274bcc16588c24b800f7a0fc3b1108a2c2ae23c8ffb98fdfa9dedb349dcadb9dbbbedc
+MD5sum: ab074e7b8f7eae859e42a86c31054a5c
+SHA1: c223372b4413e6c68d70953a3a68a2cc6a060bb5
+SHA256: d0b37bfb2e7fcfd6b7c22cf854e9dcfd1123d865f8303b33de40fdb1686d0906
+SHA512: fc6356e53da8c4c3f1e164cf2c7ec6bff8ba578b674bb497e5dfc31b62b7bfb0ef579ab8c090f12e0f97438782363d25749e95951da9d35f9e8d7ee01a08c88e
 Homepage: https://github.com/atomixcloud/liblogit
 Description: Debug message logger library
 

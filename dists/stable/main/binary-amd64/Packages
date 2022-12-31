@@ -554,6 +554,25 @@ SHA512: 33883acf61e312577c9736fbaaec3a2fdab071c2fff7a71ea581c06591dbb4e2f07fcad8
 Homepage: https://github.com/atomixcloud/liblogit
 Description: Development files for Logit library
 
+Package: liblogit-dev
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: liblogit
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 21
+Depends: liblogit (= 1.0-a)
+Filename: pool/main/logit/liblogit-dev_1.0-a_amd64.deb
+Size: 4624
+MD5sum: dde760cddf313236b4f6d45352e09289
+SHA1: ca86e79c77f52b475ccf94c3568dda9f1e090f89
+SHA256: 56c87c14128c919b5d74eb7d5a945e357a53656a18704be34c0b10f5b13e7111
+SHA512: 7671de8ef4c71701638b63e454a09fa9d793032992801e9633fa1bfd6d2d9c4292c56f10285685f9e11c66013d21b3ed68dd324762b616a3889ff627d1eb5814
+Homepage: https://github.com/atomixcloud/logit
+Description: Development files for Logit library
+
 Package: liblogit
 Architecture: amd64
 Version: 1.0-0
@@ -570,6 +589,24 @@ SHA1: c223372b4413e6c68d70953a3a68a2cc6a060bb5
 SHA256: d0b37bfb2e7fcfd6b7c22cf854e9dcfd1123d865f8303b33de40fdb1686d0906
 SHA512: fc6356e53da8c4c3f1e164cf2c7ec6bff8ba578b674bb497e5dfc31b62b7bfb0ef579ab8c090f12e0f97438782363d25749e95951da9d35f9e8d7ee01a08c88e
 Homepage: https://github.com/atomixcloud/liblogit
+Description: Debug message logger library
+
+Package: liblogit
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 22
+Depends: libc6 (>= 2.8)
+Filename: pool/main/logit/liblogit_1.0-a_amd64.deb
+Size: 4684
+MD5sum: 8ff71da7f08a21ed34cad50218657adc
+SHA1: fd0d8928f740271f96e41beea9da65f221f7953d
+SHA256: 90ff63f666a7e2856d20010baf085998dce78876f007d8964d06f3150e16edc4
+SHA512: 9e8cc06710b6a5e2d5d6119ce2a7b89539b5d8fa8eb31d4511ccbaa1e95f8c0d21ae23f05db1a8628a8a79e6507e2db87d9300d613ffa3d07251ec3a99476223
+Homepage: https://github.com/atomixcloud/logit
 Description: Debug message logger library
 
 Package: opengrok

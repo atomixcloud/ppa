@@ -309,3 +309,33 @@ SHA512: db01e4ba9c80c8811f0399ad03a5dfa3bc567f9cb184a97ecc9a09473bf59074cf1bbcd7
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 
+Package: logit-static
+Architecture: aarch64
+Version: 1.0-a
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 52
+Depends: logit (= 1.0-a)
+Filename: pool/main/logit/logit-static_1.0-a_aarch64.deb
+Size: 6852
+MD5sum: 4d9e28427da55189627186add9e0d1b5
+SHA1: 16eec885b43d5111cb6d30f91baa81a8bba3cbd4
+SHA256: 21d37f2380e762ab71e52d700f60fc50580ead924b9897c6b90a450d020962dc
+SHA512: d993e2dee91a1fe294c88c5d12ed2628d8da23fa7f7d6d7240694acf9304796a10f99d11fa715dd9c08ae823f62e6338f0926fbd42f9e740e43743b6f228de4c
+Homepage: https://github.com/atomixcloud/logit
+Description: Static libraries for logit
+
+Package: logit
+Architecture: aarch64
+Version: 1.0-a
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 48
+Depends: file
+Filename: pool/main/logit/logit_1.0-a_aarch64.deb
+Size: 4580
+MD5sum: 8abf6d2279e925fce8234e3b7f6b489f
+SHA1: 976347ed8d1faf34730561ae4ee1a2799a258328
+SHA256: acc7366179bcd4dacf3e49f74cc7c2031d09f22a004deb4eb546eb7440fb68c1
+SHA512: 529a20585cf41ce45809c8065b270be69ae6ecd5ed733c0a10fb3354fbee978b6f99328fcb7cd35e42959e587998558fd60802bc09700d88c5baede35d519e9f
+Homepage: https://github.com/atomixcloud/logit
+Description: Debug message logger library
+

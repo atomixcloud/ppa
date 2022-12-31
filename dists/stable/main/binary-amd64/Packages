@@ -461,6 +461,23 @@ SHA512: 8aa7dc34b1749a82636799a4de660f20fed26769ec09475168b58443d94a054b6cde60ea
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
 
+Package: ktags
+Architecture: all
+Version: 1.1-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 14
+Filename: pool/main/ktags/ktags_1.1-0_all.deb
+Size: 3716
+MD5sum: a7537c7efaa4128e48948630fbf7b558
+SHA1: 33f9306d043f87af8b2dca0065d52f3fcf5c6b43
+SHA256: fc40bd126131775423ed522ef75f05bc180cbb53eae74b925b7e35cae80d16b2
+SHA512: cd0fbf63825468082e500926879e1c0940bfa0e3cefb555d7a3f42afe0f00f0bed21016b4d2b4c9539b5bb3664594e890be2cf874119a5d132b183f8fcb772e9
+Homepage: https://github.com/kribakarans/ktags
+Description: Source code tagging and navigation tool.
+
 Package: libktest-dev
 Architecture: amd64
 Version: 1.0-0
@@ -532,6 +549,24 @@ MD5sum: 80c23218d715459b8f0a6f2c29201bc6
 SHA1: dabf96a6292eb924e5cc924614905c8a01ef86ff
 SHA256: 7e248ffb4215ca0267438922a29c48cb316d6af2c43cb3b35a6b707f2eee90d0
 SHA512: 0236dd4b2b4b2404666bd17f534b864235f64d718348c09038ab42e750ad735e5f933df5755ffbfa2c88dbf0551056313e5065a5efe9cbc8445d68347cd72077
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
+
+Package: ktools
+Architecture: amd64
+Version: 1.1-c
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 510
+Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
+Filename: pool/main/ktools/ktools_1.1-c_amd64.deb
+Size: 107576
+MD5sum: e21b46d4871835c84aa8f0a07ca64f1e
+SHA1: 985f01bb3c3ed3b0d448e238157601366f04208c
+SHA256: 3be55f01fc739f98a3abc58cab2c2c03277ce3382bf4bd054d55aabc58e02a0b
+SHA512: 0a909a4330ee756785d3f9856e2f741212122a4413badfed83de68862e9a70193097f67aa1c98012520185f6d5e207de6b0db899eac20767e024f527bf90deca
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 

@@ -323,10 +323,10 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 14
 Filename: pool/main/ktags/ktags_1.1-0_all.deb
 Size: 3716
-MD5sum: a7537c7efaa4128e48948630fbf7b558
-SHA1: 33f9306d043f87af8b2dca0065d52f3fcf5c6b43
-SHA256: fc40bd126131775423ed522ef75f05bc180cbb53eae74b925b7e35cae80d16b2
-SHA512: cd0fbf63825468082e500926879e1c0940bfa0e3cefb555d7a3f42afe0f00f0bed21016b4d2b4c9539b5bb3664594e890be2cf874119a5d132b183f8fcb772e9
+MD5sum: 28180ac111813a38decc4ff7e11cb3ce
+SHA1: 760e57c967b30a9cbd4235d72d5eb3aaee8dba3f
+SHA256: b295fcec161ddb938907a6f2813b3d5b14c71bbead962740bdbd2e99b0808452
+SHA512: 877628b42627ff66c43e85fd0a81b840c6c51f8eadd5968f035aeb6d86294bbaf0a8c159ef000e9eaa937209b4148ad02f74937e916e52aa06fa9631c8ffad66
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
 

@@ -497,6 +497,25 @@ SHA512: c18c74c66155e65f09a2491383b859167bf7287cc269958ed0c186c98f4654933f5607d5
 Homepage: https://github.com/kribakarans/ktest
 Description: Ktest shared library development files
 
+Package: libktest-dev
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: ktest
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 23
+Depends: libktest (= 1.0-a)
+Filename: pool/main/ktest/libktest-dev_1.0-a_amd64.deb
+Size: 3892
+MD5sum: 066794af298f018838bcfabbff8fa707
+SHA1: 8043dad825d63bbbd6d02f3745c3d84f0b3f9258
+SHA256: 665cfa410ee3ae29c2797db02888e1ac912fc9ae632e9896c22be4e0755911b5
+SHA512: 6a5ca39fe57212492eb58225ea93b2399a8df84760aa63c2a82f475e72104f2b5d665b9f176643c75111ef94ee9ed9094853ede3cc24530ab90487eae202ecc2
+Homepage: https://github.com/kribakarans/ktest
+Description: Ktest shared library development files
+
 Package: libktest
 Architecture: amd64
 Version: 1.0-0
@@ -513,6 +532,25 @@ MD5sum: a0fcb5c5dc6910e9a028f5952dbfa07a
 SHA1: 87784c772b38fc1f3cae181dd1098f10e174ff0c
 SHA256: 5586efd89c77ad67b3ca619554d330fd8dadae24f4e1fb74c5da6d9883ed5101
 SHA512: 32282b7e3f86440a6fd8d5e8e6b1a331ba825d6e7962cf4f2c1e88f2d4a427174ef0f3d858289c41b89a2bf398af3c019635548824ad4d1ebba82ef8eca6c05c
+Homepage: https://github.com/kribakarans/ktest
+Description: Ktest shared library
+
+Package: libktest
+Architecture: amd64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ktest
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 22
+Depends: libc6 (>= 2.3.4)
+Filename: pool/main/ktest/libktest_1.0-a_amd64.deb
+Size: 3264
+MD5sum: 71ba577d96fee94fbf17d548da729743
+SHA1: 0afd623859219efa041f352439a7d7f54089735e
+SHA256: 1f759808787ee48169c9104c989fae3cdc6094977c388a6d63157186bfc36387
+SHA512: f0289dd862f2754988953154858747fe673e6f6acf6526ba439b5872e36b856907f52c8b76b2ef113f031f6c9dc1a837154e66d2f9d37cc48600377552492f69
 Homepage: https://github.com/kribakarans/ktest
 Description: Ktest shared library
 

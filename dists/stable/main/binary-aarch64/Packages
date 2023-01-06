@@ -363,11 +363,11 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 60
 Depends: logit (= 1.0-b)
 Filename: pool/main/logit/logit-static_1.0-b_aarch64.deb
-Size: 7852
-MD5sum: 79cb34f658d25fb94918883106d747b6
-SHA1: 6fe8d783ae0438057afb070448bb1f43dbae3ac9
-SHA256: 10551c890310d4b8daff6c8e3410581efb8f00a6ca2b6cc86ed31ae50512bc64
-SHA512: 29a7efde31d25cddbd9b0127e62ab8267de13da6e4c269f0ea8a0fc00eb774c861c638abfd2115a0399d4f635ea9581305e044493ab8957ea8c865a86ad55133
+Size: 7928
+MD5sum: 7fa74707d39f2afca7fb960994194c9f
+SHA1: 9f0bc02a398ab173e90e73926c01e834533340bc
+SHA256: cb41ccd8bc43e3b3a40c64739bda2a66a98c8465ba740f70f8230d8dc308bedf
+SHA512: 392815ea8a9e07cb0681da65b0bb20a0c5cbdff42d7f1d87ffa7be112f2c1e74a6ff2abdce0250a70958cd380a1a2c470dbe77d09b00cd9992ffe47a610e1394
 Homepage: https://github.com/atomixcloud/logit
 Description: Static libraries for logit
 
@@ -393,11 +393,11 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 56
 Depends: file
 Filename: pool/main/logit/logit_1.0-b_aarch64.deb
-Size: 5352
-MD5sum: 07877350cbaf2b132f345d84c5ccd16d
-SHA1: aa536007c3f9c2f991ef3c71adfe30e74615fe2f
-SHA256: 62c7aec6c926e55df460090281e206528edfb97e37ae3384fa9992903bc06572
-SHA512: 3b302f5f92ad1d891d4f236788b8b07ec5979459292420a3a55bbca949b510b58e4a640b0a751c1e7deda0fde9aa470bc603d67f55377607762e96744e5388d8
+Size: 5388
+MD5sum: f3e0420504da4a14ab0e2bedc241fdc9
+SHA1: 6922c2c93cb50aca396a505b9a6b7604db92c104
+SHA256: 959c88db1a8b0c4f05d5a5db46b0d239e4c6d01d3ed1bb1b21a5ce206fce59e1
+SHA512: f8b7ceb102ef3da148554551ab996425eb4245580ee45258a11876c911c0170376c5b80f8e3eb29b18cb0e3efb9e5255676feb01e162710332180178b02abc1a
 Homepage: https://github.com/atomixcloud/logit
 Description: Debug message logger library
 

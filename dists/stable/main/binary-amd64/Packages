@@ -646,6 +646,25 @@ SHA512: 0214dff785c1131521e8ce5014680ee9717e7758259ea722dce9c4733604b9487cad2ad7
 Homepage: https://github.com/atomixcloud/logit
 Description: Development files for Logit library
 
+Package: liblogit-dev
+Architecture: amd64
+Version: 1.0-b
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: liblogit
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 26
+Depends: liblogit (= 1.0-b)
+Filename: pool/main/logit/liblogit-dev_1.0-b_amd64.deb
+Size: 5620
+MD5sum: 4459a7ccbf24a62a0a0ac01e134e2cb5
+SHA1: 51d9fd111f915b7a06620015c336a2dd7337edb2
+SHA256: 4275a4a0e4281584d0f806bc0006266e9b5fc69eb6c7051539122a48bf5d6d82
+SHA512: 3f754ee0998d219e983105348c298a612cbcdb95ffad54f2cbf1b749b66d3892b867eff061e93ac225e3218ce2184ebda3aee733ad071fbd993948f9b3390e61
+Homepage: https://github.com/atomixcloud/logit
+Description: Development files for Logit library
+
 Package: liblogit
 Architecture: amd64
 Version: 1.0-0
@@ -679,6 +698,24 @@ MD5sum: 778f2192654f47cafd28a20ffca93cfc
 SHA1: 139541f3180ef8cae615fcb17630a2551faa74f3
 SHA256: b2280019d3104029bb9e9ed72d95d7c44745159961549245e6a3ca3de755e220
 SHA512: da97b364dbf440772a86e4c71a68f43e015c3ff5a591974272dd4b0b8824a9aa225e2eae8a6dd0241e38345819f8c571e2831471af504d56cbae4701b48d95d9
+Homepage: https://github.com/atomixcloud/logit
+Description: Debug message logger library
+
+Package: liblogit
+Architecture: amd64
+Version: 1.0-b
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 26
+Depends: libc6 (>= 2.8)
+Filename: pool/main/logit/liblogit_1.0-b_amd64.deb
+Size: 5140
+MD5sum: 839d480eed899c63a74de373d5af1568
+SHA1: 3ba34a18cdbac02e4aaeb603293af5de3bdbc33d
+SHA256: 0196937421a38e7b988ae6ac264b0c36c9a330c08831fa714c7a5cf51a2859e3
+SHA512: 0c6ece1cfb399288c3b703da94207bfd606c7d017c041d21fe128d456133948fcf00da1c90be5e4a23a5022d989cdacbd9edf27c9d6613b503d637e02d9e74d9
 Homepage: https://github.com/atomixcloud/logit
 Description: Debug message logger library
 

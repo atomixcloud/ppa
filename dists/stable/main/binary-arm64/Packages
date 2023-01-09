@@ -87,6 +87,23 @@ SHA512: 4c02aa3cb986d3ece0da1d5b31d72ed154b5050dc07d1eacca8c8936c9e103eced8a67d2
 Homepage: https://github.com/atomixcloud/kdebuild
 Description: Debian and Termux package builder.
 
+Package: kdebuild
+Architecture: all
+Version: 1.0-c
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 22
+Filename: pool/main/kdebuild/kdebuild_1.0-c_all.deb
+Size: 4352
+MD5sum: 000067bb80183a653a51d60a790a24dc
+SHA1: 8a56814df1bbff7dae176bbd88fdad6c4ea980b8
+SHA256: b70fac2a566aad7a39d2daf097b741ab553eaa8290adb6310fe0ca4658d1d22b
+SHA512: ce110503dd4c8b64a574fe854ce85a5a7cdcb6531be8bd8867708dc0aa899f92702d2f777c128bebf236e52ef637073d5c4171198a7bfceb9ee650898797f1bd
+Homepage: https://github.com/atomixcloud/kdebuild
+Description: Debian and Termux package builder.
+
 Package: krokit
 Architecture: all
 Version: 1.0-0

@@ -313,6 +313,23 @@ SHA512: 877628b42627ff66c43e85fd0a81b840c6c51f8eadd5968f035aeb6d86294bbaf0a8c159
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
 
+Package: ktags
+Architecture: all
+Version: 1.1-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 14
+Filename: pool/main/ktags/ktags_1.1-a_all.deb
+Size: 3532
+MD5sum: c2ab138a8e87e704dff05194c80d5c1a
+SHA1: daa89c1982775b19b7d2df092179493d579c1d75
+SHA256: c5c4ca3e84649f92dee495b4236c4f5c683911a3d157f16d8dc01568be8f5188
+SHA512: b1489d8eac4a406f84ad8359cb183bae3ffe054d53fb3350e3a71c3031c7090666fee1dfb8310d9d292157dd998c11c9b818bc608b40c85bf41b278920746593
+Homepage: https://github.com/kribakarans/ktags
+Description: Source code tagging and navigation tool.
+
 Package: ktools
 Architecture: aarch64
 Version: 1.1-a

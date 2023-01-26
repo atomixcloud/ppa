@@ -659,6 +659,24 @@ SHA512: de4e8eaf1ed50aa86975b24783c6cdccf91813ee54127704c7f5730759903251932b1867
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, diff-utils, gtk, hashing, mime and utility tools.
 
+Package: ktools
+Architecture: amd64
+Version: 1.1-d
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 511
+Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
+Filename: pool/main/ktools/ktools_1.1-d_amd64.deb
+Size: 107320
+MD5sum: e72fe6af932e0f49a8621523e2646c88
+SHA1: 8849077e21194bee56f27e39c692568db7477217
+SHA256: 55242b46eb3a913bf323e53c1d77311e9e5933c8e4ba71f39deac26376bd4b35
+SHA512: 456d2016a89ddda85da4b915c41cce4d2822baf087777b41d9933b904986d4a30d936d8d69672d14d717e6619543cc3c060b14caba3684f78ab8202448333694
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
+
 Package: liblogit-dev
 Architecture: amd64
 Version: 1.0-0

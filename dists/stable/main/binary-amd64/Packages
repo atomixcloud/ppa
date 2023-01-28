@@ -18,25 +18,6 @@ Description: Woboq CodeBrowser
 
 Package: libdxalloc-dev
 Architecture: amd64
-Version: 1.0-0
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: dxalloc
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 38
-Depends: libdxalloc (= 1.0-0)
-Filename: pool/main/dxalloc/libdxalloc-dev_1.0-0_amd64.deb
-Size: 7676
-MD5sum: a75b95961e46be8fa264b5853eded092
-SHA1: fbbd270c88b6b0da0cfc151a23a1d2d86e57d0c6
-SHA256: 591f9eb790342198defc17cd3209d073d7235f93dc2844b04cd083122baa2756
-SHA512: 60b6ec5538db7576ab0c2d37b9e098f59d5539a829f56a99aa1abf59e4f0445349a4b94cc52adeff941825fd512f5211228503b4301fb6e9610a489f626fad3a
-Homepage: https://github.com/atomixcloud/dxalloc
-Description: Dxalloc shared library development files
-
-Package: libdxalloc-dev
-Architecture: amd64
 Version: 1.0-a
 Multi-Arch: same
 Priority: optional
@@ -53,25 +34,6 @@ SHA256: 56db08bb538a06643a738a942c87c69640d982231e8569af588d2eaa35306fea
 SHA512: df18356409c421cfad81fc865c3951302d836936f5ddbfe8dcb5083ed0a2fae1b1b2b8cbf4ad79382b947c036428477eb5b2f0578165e7dc4a587a9be4097779
 Homepage: https://github.com/atomixcloud/dxalloc
 Description: Dxalloc shared library development files
-
-Package: libdxalloc
-Architecture: amd64
-Version: 1.0-0
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: dxalloc
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 79
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.31.8)
-Filename: pool/main/dxalloc/libdxalloc_1.0-0_amd64.deb
-Size: 30304
-MD5sum: 4dc274fa171e0a749e4bb8dcc69add5c
-SHA1: 87d44242630e27c435b52a070b5f4ecf415da013
-SHA256: 7defa2b1b652c0c6aa1fa3749c4a8f8efaa07fe6fdae1bde275131675c4e53cb
-SHA512: 474b84e3017be22b44b643ab77cdb0e09e29f5420285e1cb2f36973650d1a6d7185777b42e8d85ffd3d723614e3635090e3040effdc6337b25297b5ccdee8aec
-Homepage: https://github.com/atomixcloud/dxalloc
-Description: Dxalloc shared library
 
 Package: libdxalloc
 Architecture: amd64
@@ -112,57 +74,6 @@ Description: GUI builder for the GTK and GNOME versions 2.
 
 Package: kdebuild
 Architecture: all
-Version: 1.0-0
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 19
-Filename: pool/main/kdebuild/kdebuild_1.0-0_all.deb
-Size: 4028
-MD5sum: 56a65aa07b35abb2acc1b5a079e94fd5
-SHA1: 250c32d6b5bc30330f793bf4ee3753597535a698
-SHA256: 49955911812512787ec86c19f9a431edf364c85736b41e41948c1aa3f5da3999
-SHA512: 57d6bbd05acae1d8cbadaa33ae18caccbbd49416ae3af3131a8a1510951995bfccb30ce4da3e85159e72770bc0e68bb95d54ae873d2d1526277df262e71ed5da
-Homepage: https://github.com/atomixcloud/kdebuild
-Description: Debian and Termux package builder.
-
-Package: kdebuild
-Architecture: all
-Version: 1.0-a
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 21
-Filename: pool/main/kdebuild/kdebuild_1.0-a_all.deb
-Size: 4060
-MD5sum: d1f91ea69c0df5a5a2d9b6bcfd929e4a
-SHA1: 19dbe6edf9b1b1fe5e8b8a96e691d89726b17ce6
-SHA256: 45e754e3e4f800ce3fcf6fb4c6df2cb1ab6f6a3e6d6e776f42afc419a0c139ca
-SHA512: a6c80f08e8944d4bb08973c21903ed9b4d4cceea5a9983dfcf258b5fe474413c4d80b5cdbaa9778b1b2742e7a45d094c1f4c874ecbf4d47666697ae6d2426fa5
-Homepage: https://github.com/atomixcloud/kdebuild
-Description: Debian and Termux package builder.
-
-Package: kdebuild
-Architecture: all
-Version: 1.0-b
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 21
-Filename: pool/main/kdebuild/kdebuild_1.0-b_all.deb
-Size: 4168
-MD5sum: 2734e47a5e3e1008e92479e417dc2e4d
-SHA1: 766f648bdc543e73b69990f3b9fa20d0595d7dc9
-SHA256: 830511790860f41216b0971d8863c52472a16e76fc4d49b205a87aaf547576b2
-SHA512: 4c02aa3cb986d3ece0da1d5b31d72ed154b5050dc07d1eacca8c8936c9e103eced8a67d2190c6cb3f02821279394897ab88fad9698a8e1bca03e54492c262f86
-Homepage: https://github.com/atomixcloud/kdebuild
-Description: Debian and Termux package builder.
-
-Package: kdebuild
-Architecture: all
 Version: 1.0-c
 Multi-Arch: foreign
 Priority: optional
@@ -198,57 +109,6 @@ Description: GTK-2 Mediaplayer
 
 Package: krokit
 Architecture: all
-Version: 1.0-0
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 13
-Filename: pool/main/krokit/krokit_1.0-0_all.deb
-Size: 3152
-MD5sum: 87b8c43642a0b745107df5123c3df6d4
-SHA1: aa8d0a8dd85634c1a69efc97d075e907c720ca17
-SHA256: 77ba6ca0cb36a0653d0f707bb8cd30b3522046ffd1cd06ad8003be59412e6b7c
-SHA512: a2cac038c842131a24f531cd733b32b0b36d8d9016a4903938ce104686a7e2d82cbbdf74c754423d4ed55f1d03c887cd86144ff01987171569d8fd69e57e6568
-Homepage: https://github.com/atomixcloud/krokit
-Description: Source code tagging and navigation tool.
-
-Package: krokit
-Architecture: all
-Version: 1.0-a
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 15
-Filename: pool/main/krokit/krokit_1.0-a_all.deb
-Size: 3596
-MD5sum: 1ae0d71b7ccc576ed84386188d16dbeb
-SHA1: d4454f8b8572c2b592ba95ed5c39eef2d74a8e8b
-SHA256: 12c54a882ecb0c7b72c244804640182ec824e9112b8c18c21b6732c0ba6dc39b
-SHA512: 7f3fdb7c78f3381af507f7240bc6ddd7bfe046da7d5491fed2ad6b1ce4cae15403348b37470678d37c27a0e5bc29291008d8bd6fa4661637b086dd7622915a80
-Homepage: https://github.com/atomixcloud/krokit
-Description: Tool to setup OpenGrok source code search engine.
-
-Package: krokit
-Architecture: all
-Version: 1.0-b
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 15
-Filename: pool/main/krokit/krokit_1.0-b_all.deb
-Size: 3596
-MD5sum: 4e31a83f44530317b999195cbb20c748
-SHA1: c3dc21778325bff7193b5d56752e660c311de598
-SHA256: 9e0dea44a47447ca255bda5d43250935ab90de10d1ce7b2b1a76ccde3ecb1140
-SHA512: 4830c06ec21aa80d3240fcbf9ae54fc1808927b8cee672a9a0548e8933a31ae06fa34a878f9e9d6093cb34fffcd22f492c44b75ea72bc9d0c7af0588b381626a
-Homepage: https://github.com/atomixcloud/krokit
-Description: Tool to setup OpenGrok source code search engine.
-
-Package: krokit
-Architecture: all
 Version: 1.0-c
 Multi-Arch: foreign
 Priority: optional
@@ -263,24 +123,6 @@ SHA256: 0d17ca3e6e1dc722a06f07f36ff8b0f983ab74d2f5f00525be191e82ca4c1c66
 SHA512: 8aaff7838ad033fdba3f1fdb122af85cc3fcadd4d25d522bd6d50e39cba833d7d8c88b1bf4da344ee89f37c6c1729c0218cda5f037df4938dbbed28de926173a
 Homepage: https://github.com/atomixcloud/krokit
 Description: Tool to setup OpenGrok source code search engine.
-
-Package: kstat
-Architecture: amd64
-Version: 1.0-0
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 20
-Depends: libkstat (= 1.0-0), libc6 (>= 2.4)
-Filename: pool/main/kstat/kstat_1.0-0_amd64.deb
-Size: 3228
-MD5sum: 88b9579d1bb6f97159064d9e41c02c0c
-SHA1: 41e504561f0087ee888111c6877d734d2d1e5643
-SHA256: 662b5c929c81c5c7a937faacaad0599fb3507d12ff1c97aede4b25e1b576e2e7
-SHA512: 238e059390cd0a50dacbfe3e3bc6c1bfbbff04b538e98ad448f2397d79d18cc9bb29feacf660b5783ea8df5e40d4620c0c54115a6b61a1401d0b8a974bfbe907
-Homepage: https://github.com/atomixcloud/kstat
-Description: Kstat: Advanced file stat program
 
 Package: kstat
 Architecture: amd64
@@ -299,25 +141,6 @@ SHA256: 5962f4fc3953f5e69e29af32896348ef463823ff192a41c9aea706f2a6de223f
 SHA512: 83165e8f911145cf4a6223a282559361521f43ae32c65ae44c0e9cbc9f99f98f73d37f2880fedae666607d16263c5c651a31da576f60d34be8a8397b194a8cae
 Homepage: https://github.com/atomixcloud/kstat
 Description: Kstat: Advanced file stat program
-
-Package: libkstat-dev
-Architecture: amd64
-Version: 1.0-0
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: kstat
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 21
-Depends: libkstat (= 1.0-0)
-Filename: pool/main/kstat/libkstat-dev_1.0-0_amd64.deb
-Size: 4068
-MD5sum: 08cb1f86bbaa858cf55333348f174292
-SHA1: 43d76b570d461304ba740755e32b083b59264b2b
-SHA256: ab514875653cc00586f9fda1292e5f94d619513be6e62bf22fbfec680818f101
-SHA512: d6ec98a6fc0809ee48f50c4bb68dc18e7a102f379a9f0a5456a2f166f909c81dea5e7c6348e886b0c55fbfa262bb34a48e9ed83112205f399eb19da09ac81dca
-Homepage: https://github.com/atomixcloud/kstat
-Description: This package contains the libkstat development files
 
 Package: libkstat-dev
 Architecture: amd64
@@ -340,25 +163,6 @@ Description: This package contains the libkstat development files
 
 Package: libkstat
 Architecture: amd64
-Version: 1.0-0
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: kstat
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 27
-Depends: libc6 (>= 2.4), libmagic1 (>= 5.12)
-Filename: pool/main/kstat/libkstat_1.0-0_amd64.deb
-Size: 4576
-MD5sum: 5af3a06080bd4b050caa71684e9f5235
-SHA1: 8cc54b8ce2d6dd6edbfa797330e6813460eded74
-SHA256: 8e0a152cb1bbb164ed121cb5ac45771b8a0f3a5008cc49750fe3f15e26be2faa
-SHA512: 689634f8095abd865f1b5204407d88ce074b9a3e34063eb8e7ad37ffa973575f0fb4ac69d51e848b4f00e9bbf063c517febbbfbdc274b3c0604a67437be9f93c
-Homepage: https://github.com/atomixcloud/kstat
-Description: This package contains the libkstat binaries
-
-Package: libkstat
-Architecture: amd64
 Version: 1.0-a
 Multi-Arch: same
 Priority: optional
@@ -375,142 +179,6 @@ SHA256: 9c3c8fcb09cfeaaf70cc095119bd390ee2f572a99e04113206677b93ebe299bb
 SHA512: c64aa466bab8296e9ecdbc359ea7f4126815735e42d737a5cd3edab4e1271dc4d98f17553c002bc944eeae6c13273833e312dae82dfc149b168980d5f5dd8bdd
 Homepage: https://github.com/atomixcloud/kstat
 Description: This package contains the libkstat binaries
-
-Package: ktags
-Architecture: all
-Version: 1.0-0
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 13
-Filename: pool/main/ktags/ktags_1.0-0_all.deb
-Size: 3460
-MD5sum: f3c889851936caa4d341043ea16b2f50
-SHA1: 6f5a3710b21df81b944577ade9c06aea5fba8507
-SHA256: 53a910e7a8b623c0da142a038a16f9acc16308d62c1e8d6c99b4c82527429de2
-SHA512: c429c68450aa36edcf4a363e680f0d87483ae3f082b48274a8e5050c4af0eca06e8f65d316f34dda9909abccd544c84fab14d3d01f364a54a6a2d1c946345f73
-Homepage: https://github.com/atomixcloud/ktags
-Description: Source code tagging and navigation tool.
-
-Package: ktags
-Architecture: all
-Version: 1.0-a
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 13
-Filename: pool/main/ktags/ktags_1.0-a_all.deb
-Size: 3464
-MD5sum: 58c26ba51f88d6db57c08233d186ce5b
-SHA1: d2fe926a62be69e38ad8286835126d24ed5ce077
-SHA256: 46662977fdb134421521edeeec299c73a6785b9d9bb39584f40ac2d8b0b51a6d
-SHA512: ed42f528f45e7dd6ffddfe677b3ae656257687d63b3ae3ff63b9fac29e92f9d996963c3e4be739f6be0b21c93dc95f384473f2e2c1fd2d3d4d0110d98cbd5576
-Homepage: https://github.com/atomixcloud/ktags
-Description: Source code tagging and navigation tool.
-
-Package: ktags
-Architecture: all
-Version: 1.0-b
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 15
-Filename: pool/main/ktags/ktags_1.0-b_all.deb
-Size: 3908
-MD5sum: 6df8ebf63c0aedeb5fc18c62835c0fe0
-SHA1: 2b40c616546dc337bae28c2047a7d54807d697dc
-SHA256: a35472db2d9573f52ff2768a097b68753f668ff074eafc48ee5d0493787a589c
-SHA512: fddaf56a745c85b0b30107b5043813ffd0dfa6658d39a8ba92733256a8e9a04c67fcff2b5a0f07950ee97fc7607d81b735d9ea95d7a722c1b1837382faa7d909
-Homepage: https://github.com/atomixcloud/ktags
-Description: Source code tagging and navigation tool.
-
-Package: ktags
-Architecture: all
-Version: 1.0-c
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 15
-Filename: pool/main/ktags/ktags_1.0-c_all.deb
-Size: 3992
-MD5sum: f210f50977cdab099399643a1ff4dabd
-SHA1: 1386ba60f56174680a48773411198a1a11b600da
-SHA256: e36f00ed0030740721a1b5da93463a1e4216cd54de4b5b481d923708d47379f5
-SHA512: 98d6af5d9d1137b8a90a6806f5c7dba340dea1488b6df76a30acaa214f97ce39e90942a97329d19f6638ed083983f689e9c5792ff95393dd5a8a1933087019ad
-Homepage: https://github.com/atomixcloud/ktags
-Description: Source code tagging and navigation tool.
-
-Package: ktags
-Architecture: all
-Version: 1.0-d
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 14
-Filename: pool/main/ktags/ktags_1.0-d_all.deb
-Size: 3648
-MD5sum: 05c05ed7a0d8e460889c665b2808a539
-SHA1: e961557a13c2ef5fce5f160662433535b16fe3c4
-SHA256: d20adc14958e3bea24e94e61712dac689105ee3d77f8c89ebcdc2f1658c4266d
-SHA512: e34461408ebde8f1aca529707fcb2f9f1e178c92717515c2971093204d8c2f0520b7e6f24b886f943c7b24559532efcb9da6f46261e3b07912858ecc27de0890
-Homepage: https://github.com/kribakarans/ktags
-Description: Source code tagging and navigation tool.
-
-Package: ktags
-Architecture: all
-Version: 1.0-e
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 14
-Filename: pool/main/ktags/ktags_1.0-e_all.deb
-Size: 3668
-MD5sum: e08a45c7516901b9845d391709fdc290
-SHA1: b72c7f4199ba735a0cdd293f2aea07ed4e23e9ec
-SHA256: 06dcfc5aa233b23d64658532a9eb82fa9838c5ec5972ac5e23fc40ca401e1ee3
-SHA512: 8aa7dc34b1749a82636799a4de660f20fed26769ec09475168b58443d94a054b6cde60eabc5f12731cc4368da28c5c1370be2ed44027856776691a4d41fb7c0a
-Homepage: https://github.com/kribakarans/ktags
-Description: Source code tagging and navigation tool.
-
-Package: ktags
-Architecture: all
-Version: 1.1-0
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 14
-Filename: pool/main/ktags/ktags_1.1-0_all.deb
-Size: 3716
-MD5sum: 28180ac111813a38decc4ff7e11cb3ce
-SHA1: 760e57c967b30a9cbd4235d72d5eb3aaee8dba3f
-SHA256: b295fcec161ddb938907a6f2813b3d5b14c71bbead962740bdbd2e99b0808452
-SHA512: 877628b42627ff66c43e85fd0a81b840c6c51f8eadd5968f035aeb6d86294bbaf0a8c159ef000e9eaa937209b4148ad02f74937e916e52aa06fa9631c8ffad66
-Homepage: https://github.com/kribakarans/ktags
-Description: Source code tagging and navigation tool.
-
-Package: ktags
-Architecture: all
-Version: 1.1-a
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 14
-Filename: pool/main/ktags/ktags_1.1-a_all.deb
-Size: 3532
-MD5sum: c2ab138a8e87e704dff05194c80d5c1a
-SHA1: daa89c1982775b19b7d2df092179493d579c1d75
-SHA256: c5c4ca3e84649f92dee495b4236c4f5c683911a3d157f16d8dc01568be8f5188
-SHA512: b1489d8eac4a406f84ad8359cb183bae3ffe054d53fb3350e3a71c3031c7090666fee1dfb8310d9d292157dd998c11c9b818bc608b40c85bf41b278920746593
-Homepage: https://github.com/kribakarans/ktags
-Description: Source code tagging and navigation tool.
 
 Package: ktags
 Architecture: all
@@ -531,25 +199,6 @@ Description: Source code tagging and navigation tool.
 
 Package: libktest-dev
 Architecture: amd64
-Version: 1.0-0
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: ktest
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 32
-Depends: libktest (= 1.0-0)
-Filename: pool/main/ktest/libktest-dev_1.0-0_amd64.deb
-Size: 5064
-MD5sum: dbe4ba4aa533d610ca32469b87d24deb
-SHA1: 69c40ad2e784cd6ee6fd63b55b5611d04053a120
-SHA256: 777b917e4d173e8768fb43932c7eaf6ea881c99fb4bd2a921d2a2535bb02a63d
-SHA512: c18c74c66155e65f09a2491383b859167bf7287cc269958ed0c186c98f4654933f5607d58767fe5819bdb99e56df1c97338f4dbf8e9ac8f8aa6ff4ad3cbf1140
-Homepage: https://github.com/kribakarans/ktest
-Description: Ktest shared library development files
-
-Package: libktest-dev
-Architecture: amd64
 Version: 1.0-a
 Multi-Arch: same
 Priority: optional
@@ -566,25 +215,6 @@ SHA256: 665cfa410ee3ae29c2797db02888e1ac912fc9ae632e9896c22be4e0755911b5
 SHA512: 6a5ca39fe57212492eb58225ea93b2399a8df84760aa63c2a82f475e72104f2b5d665b9f176643c75111ef94ee9ed9094853ede3cc24530ab90487eae202ecc2
 Homepage: https://github.com/kribakarans/ktest
 Description: Ktest shared library development files
-
-Package: libktest
-Architecture: amd64
-Version: 1.0-0
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: ktest
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 22
-Depends: libc6 (>= 2.3.4)
-Filename: pool/main/ktest/libktest_1.0-0_amd64.deb
-Size: 4224
-MD5sum: a0fcb5c5dc6910e9a028f5952dbfa07a
-SHA1: 87784c772b38fc1f3cae181dd1098f10e174ff0c
-SHA256: 5586efd89c77ad67b3ca619554d330fd8dadae24f4e1fb74c5da6d9883ed5101
-SHA512: 32282b7e3f86440a6fd8d5e8e6b1a331ba825d6e7962cf4f2c1e88f2d4a427174ef0f3d858289c41b89a2bf398af3c019635548824ad4d1ebba82ef8eca6c05c
-Homepage: https://github.com/kribakarans/ktest
-Description: Ktest shared library
 
 Package: libktest
 Architecture: amd64
@@ -625,63 +255,6 @@ Description: The K-Tools are a collection of linux file processing, exif, git, h
 
 Package: liblogit-dev
 Architecture: amd64
-Version: 1.0-0
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: liblogit
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 21
-Depends: liblogit (= 1.0-0)
-Filename: pool/main/logit/liblogit-dev_1.0-0_amd64.deb
-Size: 4632
-MD5sum: a7fdbf4630436ab63aa480ebf983bc63
-SHA1: 22b746524bccc870aa815def2953462bb0279388
-SHA256: a42b7a6f4e0111f12bf1fbb6a2966686a7072dab5019109c3f6aeeb99b1a157a
-SHA512: 33883acf61e312577c9736fbaaec3a2fdab071c2fff7a71ea581c06591dbb4e2f07fcad84058dd2a82d111b20e9ca429ce09f9da623864000e2d1b362f664b06
-Homepage: https://github.com/atomixcloud/liblogit
-Description: Development files for Logit library
-
-Package: liblogit-dev
-Architecture: amd64
-Version: 1.0-a
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: liblogit
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 21
-Depends: liblogit (= 1.0-a)
-Filename: pool/main/logit/liblogit-dev_1.0-a_amd64.deb
-Size: 4644
-MD5sum: 8795881ed8173b169c5abd464978c680
-SHA1: 74f9e608032eb80d43080eb5e14c50db2deb38e1
-SHA256: 2a35df7d76efba52025421a2d1324cc06193ade4af4fd61d98e8df66303c00a6
-SHA512: 0214dff785c1131521e8ce5014680ee9717e7758259ea722dce9c4733604b9487cad2ad724039789b3dceda5e8509dca1168d494dd12b2d3b0d0550f13815089
-Homepage: https://github.com/atomixcloud/logit
-Description: Development files for Logit library
-
-Package: liblogit-dev
-Architecture: amd64
-Version: 1.0-b
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: liblogit
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 26
-Depends: liblogit (= 1.0-b)
-Filename: pool/main/logit/liblogit-dev_1.0-b_amd64.deb
-Size: 5640
-MD5sum: ce860e3016da14e1a7b505fc35e9df32
-SHA1: 36822e147a349346ad61eb945a920633515a34e6
-SHA256: 8fd30dd3b00b4e80e3d7d0f5f9fce445c5f1de8153f09d7c91e3d2240f6e03b5
-SHA512: cb20be9d899c8853c227cb286bc5c9494d894a8a8ccd9e4c308018b42c675a2a73d14569a9a5225e29f41879cd92fb4fc9202366206439f00171e3af9a233c0d
-Homepage: https://github.com/atomixcloud/logit
-Description: Development files for Logit library
-
-Package: liblogit-dev
-Architecture: amd64
 Version: 1.0-c
 Multi-Arch: same
 Priority: optional
@@ -698,60 +271,6 @@ SHA256: 300001407cd4d712f673de4196bb1e85bf204bf1f812d1d38eb4c043df4431e5
 SHA512: 6bc70cc3b8c6264f92307dd30e5926aad4099cb5ac0aa0f0a7b66b87c7e682182a5788de84697156a0f319eaf919707e4771d5db8b5da9bd7fc0ee7e400ee619
 Homepage: https://github.com/atomixcloud/logit
 Description: Development files for Logit library
-
-Package: liblogit
-Architecture: amd64
-Version: 1.0-0
-Multi-Arch: same
-Priority: optional
-Section: libs
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 22
-Depends: libc6 (>= 2.8)
-Filename: pool/main/logit/liblogit_1.0-0_amd64.deb
-Size: 4684
-MD5sum: ab074e7b8f7eae859e42a86c31054a5c
-SHA1: c223372b4413e6c68d70953a3a68a2cc6a060bb5
-SHA256: d0b37bfb2e7fcfd6b7c22cf854e9dcfd1123d865f8303b33de40fdb1686d0906
-SHA512: fc6356e53da8c4c3f1e164cf2c7ec6bff8ba578b674bb497e5dfc31b62b7bfb0ef579ab8c090f12e0f97438782363d25749e95951da9d35f9e8d7ee01a08c88e
-Homepage: https://github.com/atomixcloud/liblogit
-Description: Debug message logger library
-
-Package: liblogit
-Architecture: amd64
-Version: 1.0-a
-Multi-Arch: same
-Priority: optional
-Section: libs
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 22
-Depends: libc6 (>= 2.8)
-Filename: pool/main/logit/liblogit_1.0-a_amd64.deb
-Size: 4684
-MD5sum: 778f2192654f47cafd28a20ffca93cfc
-SHA1: 139541f3180ef8cae615fcb17630a2551faa74f3
-SHA256: b2280019d3104029bb9e9ed72d95d7c44745159961549245e6a3ca3de755e220
-SHA512: da97b364dbf440772a86e4c71a68f43e015c3ff5a591974272dd4b0b8824a9aa225e2eae8a6dd0241e38345819f8c571e2831471af504d56cbae4701b48d95d9
-Homepage: https://github.com/atomixcloud/logit
-Description: Debug message logger library
-
-Package: liblogit
-Architecture: amd64
-Version: 1.0-b
-Multi-Arch: same
-Priority: optional
-Section: libs
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 26
-Depends: libc6 (>= 2.8)
-Filename: pool/main/logit/liblogit_1.0-b_amd64.deb
-Size: 5144
-MD5sum: 07f953b5b1fd34c9800af56bc096ff6e
-SHA1: 33106b69fda9430805a142cd1764ad0f908a9c6e
-SHA256: 0d6e99ef0feb864d3c1f70e040377eb11fc69ee9a9cc133228966366999accda
-SHA512: 0e247f113d7d19162242e905baddb021b995b7234081d8755f6ee35f04b10a1dcdc4be56353369acc7793168d35fdbd61fc45f85cdc9419319c74eae31bcc5d8
-Homepage: https://github.com/atomixcloud/logit
-Description: Debug message logger library
 
 Package: liblogit
 Architecture: amd64

@@ -62,11 +62,11 @@ Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 15
 Filename: pool/main/krokit/krokit_1.0-c_all.deb
-Size: 3732
-MD5sum: b89bc74760219c7758bbb9f18036a042
-SHA1: 6209468fb4b860da9bc2890874bae48f56b7f699
-SHA256: 0d17ca3e6e1dc722a06f07f36ff8b0f983ab74d2f5f00525be191e82ca4c1c66
-SHA512: 8aaff7838ad033fdba3f1fdb122af85cc3fcadd4d25d522bd6d50e39cba833d7d8c88b1bf4da344ee89f37c6c1729c0218cda5f037df4938dbbed28de926173a
+Size: 3740
+MD5sum: 723f21c9f4c8a5fd3204061c6abb590c
+SHA1: 100c3ef4aaed3749fcfa85aaeb0b822698dea09e
+SHA256: 60f43d1af9bf7c2eb71b44be979744151209c79cc0d02a6e1d3d83af6bc9c40e
+SHA512: 3b8d97b7ddd5561530839d05125d106ba65e33581a6551f2289c8562ac9c94dc87032f2f1ed1f0ad612a201aedb33046c2f292844df048fdf5eb9d7c28d85589
 Homepage: https://github.com/atomixcloud/krokit
 Description: Tool to setup OpenGrok source code search engine.
 

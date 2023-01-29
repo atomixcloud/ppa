@@ -4,6 +4,7 @@ set -eu
 
 TOPDIR=$PWD/..
 ARCHS=( amd64 arm64 aarch64 )
+GPGHASH=B91FEFA43EB8267E05A03E4AEB72E1E3878ECB6A
 
 usage() {
 	cat <<-USAGE
@@ -51,7 +52,16 @@ update_distro() {
 	gzip -9kf $DIRPKGFILE/Packages
 }
 
+import_private_key() {
+	if [[ ! $(gpg --list-secret-keys | grep $GPGHASH) ]]; then
+		echo "Importing gpg key ..."
+		gpg --import $1 # Import given gpg private key
+	fi
+}
+
 update_release() {
+	import_private_key './utils/private-key.asc'
+
 	cd dists/stable/
 	cat $TOPDIR/utils/release.conf  > Release
 	apt-ftparchive release . >> Release

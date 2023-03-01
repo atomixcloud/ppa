@@ -254,19 +254,19 @@ Description: Ktest shared library
 
 Package: ktools
 Architecture: amd64
-Version: 1.1-e
+Version: 1.2-0
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 510
+Installed-Size: 573
 Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
-Filename: pool/main/ktools/ktools_1.1-e_amd64.deb
-Size: 107752
-MD5sum: abd61a8d3500c38284ad0e014372d1d5
-SHA1: 907424ed7c7211bce5d3e6523a562e41e7eb750c
-SHA256: aee82ffa87a32d513b52aa2c684ba92a7e5c3ba78bd94f79a03db0c9e4afe384
-SHA512: 3f6080f73d18aca9de4a476bbd74dcdade7ffeca2218143c0e57fcc645a7bb35c95955b21bc05c9eaa4ed9fe3d4e649fa481eb63d58fea64cc167c91179237fd
+Filename: pool/main/ktools/ktools_1.2-0_amd64.deb
+Size: 140164
+MD5sum: eb0e664946b139791d3c6929e506f9a6
+SHA1: 697f5ceb52566449c509450937a9f88b31d083ec
+SHA256: 50b3eaf4530a2c5c532ff632e472f7b506430ca284a3df14fcd60d0de34eee9e
+SHA512: ab87d60fbff888c6ba6a59d1784fcaa6524382e6981694e2f8b0970bc46b74feb2edde9bbbcbf24714f959546cd99fd04f5825a3c0b7155f36e9ce178a549eba
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
 

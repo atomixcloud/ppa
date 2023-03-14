@@ -214,3 +214,21 @@ SHA512: 494016ad57fc9583895adaa9b4afc20aa916c929359d8dadee8187de73bea850c19d8eab
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
 
+Package: ktools
+Architecture: arm64
+Version: 1.2-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 377
+Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
+Filename: pool/main/ktools/ktools_1.2-a_arm64.deb
+Size: 78552
+MD5sum: e8f5230b891f6a2ceb36337192844650
+SHA1: c2587086da78de74423cf82c00b5eec3336c37cf
+SHA256: 7b9f2199593fbd40b2ff1bace2e577edd54631677732c770a9c27f86488faa4e
+SHA512: 1a4884756567af9e6d5852d2bc57ef0762dd52e193e0c67f7ba6f710373d8c84f9ef313ebfd4858c1321b19436bfb233ced1ffc2906cf63c00ce1c4c89ca1d33
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
+

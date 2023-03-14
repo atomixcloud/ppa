@@ -1,3 +1,21 @@
+Package: codebrowser
+Architecture: arm64
+Version: 2.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 4314
+Depends: libc6 (>= 2.17), libclang-cpp10, libgcc-s1 (>= 3.0), libllvm10 (>= 1:9~svn298832-1~), libstdc++6 (>= 9)
+Filename: pool/main/codebrowser/codebrowser_2.1-1_arm64.deb
+Size: 492900
+MD5sum: 30515a3b5e90d8b0f1c7000771037584
+SHA1: f0c7b0bd1fc29fcb03ebfef4d64d863836d066a6
+SHA256: 0202b28b1323af9261864c7632051dd797d2d8927595e481c57be71f05f84a1f
+SHA512: 849b939678072f54a94efa3176c8e612a0994cc745d78c7b939612ae1413c9d1047ba2f4e51c9a4417ea47990886baf01cff76806b14bf3414c25c8404966a92
+Homepage: http://woboq.com/codebrowser.html
+Description: Woboq CodeBrowser
+
 Package: libdxalloc-dev
 Architecture: arm64
 Version: 1.0-a
@@ -159,4 +177,22 @@ SHA256: a17dc2ce13fdceb3fa88ca4515a4dddc722885d4cbc6388b27605909ecca5a7d
 SHA512: 09a8ea442abf25b60cb7dffc22ef63d08b35ae94e849d9ff705cd5e0bdcc47fa30a50110a5ad2508e66ec6439f47a3ea03bee19264bfc87b068fa7602a7f5e6e
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
+
+Package: ktools
+Architecture: arm64
+Version: 1.2-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 510
+Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
+Filename: pool/main/ktools/ktools_1.2-0_arm64.deb
+Size: 127444
+MD5sum: 0c5daee31f7bd449c704b9bfcc6ad5ff
+SHA1: c1e452482b846527af48c7c83e3f3ee4c05b4f5d
+SHA256: e38d2a07818a816a2373c38b3d82bb3547d9fbaa0e5463081fee1aa77b852e5d
+SHA512: 494016ad57fc9583895adaa9b4afc20aa916c929359d8dadee8187de73bea850c19d8eabcdbde2f2e325bb5211b90a2e6bb87c27a650ed601e6178b1179d493e
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
 

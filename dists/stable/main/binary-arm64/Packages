@@ -81,11 +81,11 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 337
 Depends: bear, codebrowser, cppcheck, doxygen, flawfinder, gnuplot, graphviz, python2
 Filename: pool/main/klab/klab_1.0-0_arm64.deb
-Size: 191484
-MD5sum: 2e7befe298360bc71fe07b4469438db8
-SHA1: dbe12521a03e942e00d3abb5edc046a5da0049be
-SHA256: 82816889a2bf4e0295b34489007d763636cb1ac07598801987f0de34ef62a083
-SHA512: 7c08127be72971d3c68c23ce34f07ebd06a586b13e760c9d9e2e8d8c41da5c86cf4ddae15a3dd666663653fc3a9c1f54d8e01da34e6f96494587c72a09ff3921
+Size: 191596
+MD5sum: 77b32c65a273ecdee07c95951fe415f4
+SHA1: 71f86e023ffc9375b51c6685557b29a9cb7fe738
+SHA256: d70ebb98633bb590427c5017b9141aebabf48cb27c687c9296caaf274366f35e
+SHA512: 67670ddfe5abded221db3b2ded6a0a9c9fab80756e020962de54fdc76ce5222270561df9b5f23060f380b6e417be86518b0d9bb9acc47d0c361725a1aa1303bb
 Homepage: https://github.com/atomixcloud/klab
 Description: KLAB dashboard for web based project management and XREF tools.
 

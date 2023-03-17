@@ -98,6 +98,21 @@ Description: Source code tagging and navigation tool.
 
 Package: ktools
 Architecture: aarch64
+Version: 1.2-a
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 368
+Depends: file, libexif, kstat
+Filename: pool/main/ktools/ktools_1.2-a_aarch64.deb
+Size: 76112
+MD5sum: ed845d72f5e6232cd5ccba5521724a9b
+SHA1: 8fbdd667d54dfb7478c42283c17451b2821b5cdc
+SHA256: 68b43227e4f4a9ea1e19a62f83456becd2bd65f4a0a54043fd63ad5cece80967
+SHA512: ac629c4aa961ab62ab5cfbf3f876a613a829456f2e45f41c2327e394679e084d32fa4aff5ff867c868c8a8c206baf917034f35c8c4521ad86e23ab5ffbc54e2b
+Homepage: https://github.com/atomixcloud/ktools
+Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
+
+Package: ktools
+Architecture: aarch64
 Version: 1.2
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 544

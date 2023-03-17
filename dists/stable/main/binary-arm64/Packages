@@ -221,14 +221,14 @@ Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 377
+Installed-Size: 375
 Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
 Filename: pool/main/ktools/ktools_1.2-a_arm64.deb
-Size: 78552
-MD5sum: e8f5230b891f6a2ceb36337192844650
-SHA1: c2587086da78de74423cf82c00b5eec3336c37cf
-SHA256: 7b9f2199593fbd40b2ff1bace2e577edd54631677732c770a9c27f86488faa4e
-SHA512: 1a4884756567af9e6d5852d2bc57ef0762dd52e193e0c67f7ba6f710373d8c84f9ef313ebfd4858c1321b19436bfb233ced1ffc2906cf63c00ce1c4c89ca1d33
+Size: 78024
+MD5sum: a31765e2df6549280bf6ac7023e71f7b
+SHA1: b81ca85b0cfa6d40ded82d69a22621a439aeed1f
+SHA256: 9487a68fd05db94a2ea1fca57cd7e753428d6cec1b9cdd5ef7dfe06745b207b7
+SHA512: 99015a3ae1479a6de94ab02131df0d2724c8195a3b0f5762f3328acc0ad08f4923605749d85e95bfeedc05f93901483d48546bb866e6c51787bd6629912a9817
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
 

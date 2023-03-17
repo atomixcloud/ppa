@@ -262,10 +262,10 @@ Installed-Size: 23
 Depends: libktest (= 1.0-a)
 Filename: pool/main/ktest/libktest-dev_1.0-a_amd64.deb
 Size: 3892
-MD5sum: 066794af298f018838bcfabbff8fa707
-SHA1: 8043dad825d63bbbd6d02f3745c3d84f0b3f9258
-SHA256: 665cfa410ee3ae29c2797db02888e1ac912fc9ae632e9896c22be4e0755911b5
-SHA512: 6a5ca39fe57212492eb58225ea93b2399a8df84760aa63c2a82f475e72104f2b5d665b9f176643c75111ef94ee9ed9094853ede3cc24530ab90487eae202ecc2
+MD5sum: abcea767e10bc050461fa27580e41e97
+SHA1: c7ac0c254123ee03b9b1c4c4c422195870d00997
+SHA256: f3d170b62d052a189f7c8cd1bfa4890bdbe3c3aed9fc02da983f87a6d6630588
+SHA512: 8659f943393c0b28c44964afa91ec7f35aedce36f88f5696294b2fe422086eac204fd3f0d4b7fe92e80282e70ad5fad8319e744d630145d4b153270999a42322
 Homepage: https://github.com/kribakarans/ktest
 Description: Ktest shared library development files
 
@@ -280,11 +280,11 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 22
 Depends: libc6 (>= 2.3.4)
 Filename: pool/main/ktest/libktest_1.0-a_amd64.deb
-Size: 3264
-MD5sum: 71ba577d96fee94fbf17d548da729743
-SHA1: 0afd623859219efa041f352439a7d7f54089735e
-SHA256: 1f759808787ee48169c9104c989fae3cdc6094977c388a6d63157186bfc36387
-SHA512: f0289dd862f2754988953154858747fe673e6f6acf6526ba439b5872e36b856907f52c8b76b2ef113f031f6c9dc1a837154e66d2f9d37cc48600377552492f69
+Size: 3260
+MD5sum: c1f9d0accc4df48d7032307f369b24be
+SHA1: 584b838de07f3d9570948302373d13cf6c14df0d
+SHA256: 9fa16847b7202eb46bb97cf66846f50cf0e441a0f03dece53daca9a620d4f254
+SHA512: ef6047e1029ad0f3ef634fba44726d1a10ea82fb375897ab5b2c584675b36fc5c96a9000376531ef23d04ead23ff0fe3a3047ed2f1449852ea805bc59e0bbe54
 Homepage: https://github.com/kribakarans/ktest
 Description: Ktest shared library
 

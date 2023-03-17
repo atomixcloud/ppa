@@ -107,6 +107,24 @@ SHA512: aebee6350e62138e26e805c84e762c095ac8bc9f926168c6a0db7f3f67011d76e68ea2a3
 Homepage: https://github.com/atomixcloud/klab
 Description: KLAB dashboard for web based project management and XREF tools.
 
+Package: kplay
+Architecture: arm64
+Version: 1.0-0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 80
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.16.2), libmagic1 (>= 5.12)
+Filename: pool/main/kplay/kplay_1.0-0_arm64.deb
+Size: 33360
+MD5sum: d2987fa66ca2623d94f3197e19d7a322
+SHA1: 807832f623ee78e460841f586acf7dabcedbde01
+SHA256: 0b1eb9363c3523689e2760f43d9740bf5c31256e5d56243f002054a1d65aa69e
+SHA512: 2738aa17a4010fa2415ee6647975225864e330bb71a99b70662f33d9bb9719f5a71e1024058155fc935a80b66d4f5d6db4ad9dfca800ecdec625312bb6a91a19
+Homepage: https://github.com/atomixcloud/kplay
+Description: GTK-2 Mediaplayer
+
 Package: krokit
 Architecture: all
 Version: 1.0-c
@@ -214,6 +232,44 @@ SHA512: 09a8ea442abf25b60cb7dffc22ef63d08b35ae94e849d9ff705cd5e0bdcc47fa30a50110
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
 
+Package: libktest-dev
+Architecture: arm64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: ktest
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 23
+Depends: libktest (= 1.0-a)
+Filename: pool/main/ktest/libktest-dev_1.0-a_arm64.deb
+Size: 3836
+MD5sum: d26631d765c0a9c4943687d09c4000f3
+SHA1: 10d946fafe54aeaf92ec2ff1768c7fa539a9d574
+SHA256: e56e05db13833651045c126f01ac2cd4c4efbbad4da634f0a5f8194882fd021e
+SHA512: 1f2c3dfb0406397d33eebd95c6645b34a9140cea080466cfd386ac02f6caf1d622ee5e7f3b7649a9e36f58d33bb1ccf3c6bbe57e7ad36fd76f0f20f949b03ff7
+Homepage: https://github.com/kribakarans/ktest
+Description: Ktest shared library development files
+
+Package: libktest
+Architecture: arm64
+Version: 1.0-a
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ktest
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 142
+Depends: libc6 (>= 2.17)
+Filename: pool/main/ktest/libktest_1.0-a_arm64.deb
+Size: 3280
+MD5sum: efc815f6cd562fbbeb5dd8a90970073b
+SHA1: c72e28c4fb4b6561387d0a808830004104b61138
+SHA256: 48012b4b191d435fddb39c988d1826addea30613951424464cb27355a91ca7ef
+SHA512: 841993ab22017640dc82df3521e48633e84532506f8108e88144cee23a0219260b8150ad0716c83912aebc5f5eae4cbf172c8a4cfb863a3f8e9fa1b21279a227
+Homepage: https://github.com/kribakarans/ktest
+Description: Ktest shared library
+
 Package: ktools
 Architecture: arm64
 Version: 1.2-0
@@ -249,4 +305,41 @@ SHA256: 9487a68fd05db94a2ea1fca57cd7e753428d6cec1b9cdd5ef7dfe06745b207b7
 SHA512: 99015a3ae1479a6de94ab02131df0d2724c8195a3b0f5762f3328acc0ad08f4923605749d85e95bfeedc05f93901483d48546bb866e6c51787bd6629912a9817
 Homepage: https://github.com/atomixcloud/ktools
 Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
+
+Package: liblogit-dev
+Architecture: arm64
+Version: 1.0-c
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: liblogit
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 27
+Depends: liblogit (= 1.0-c)
+Filename: pool/main/logit/liblogit-dev_1.0-c_arm64.deb
+Size: 5808
+MD5sum: cf33bbf6b2b5ca8338687b8e0a62eae0
+SHA1: 24145e9f66fe3cdd293654471998ec70b222d200
+SHA256: 332ae1f51a3d046c38b5d2cbc94d814fba96ebe40bd959b13b082793fb0c6143
+SHA512: 8c883f893e4fe2beee3b75d5ff42f2428e395e6db2bd29851467b76a81109204cf77562738e2eb0ae5720c3cf39086dd95dafc6350dd039149d05551f485e7b8
+Homepage: https://github.com/atomixcloud/logit
+Description: Development files for Logit library
+
+Package: liblogit
+Architecture: arm64
+Version: 1.0-c
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 142
+Depends: libc6 (>= 2.17)
+Filename: pool/main/logit/liblogit_1.0-c_arm64.deb
+Size: 5056
+MD5sum: 059835b38f4ae2c13ca1e3fccc6828a9
+SHA1: 420759e58baaf42d94ada69bfee1a601499c99df
+SHA256: ff29e1845df71f756168aed243d5568222b96ce0e3234cf7ac2db03f0c20d531
+SHA512: f9cfb88cfe5978ba9b93f5b8c6d3654ecce7d087e1110cd3f8506cfb7c20ab0c36d8c4d545b1a69aecab63ac87e856fb53618e5193822168e015b53902b04bad
+Homepage: https://github.com/atomixcloud/logit
+Description: Debug message logger library
 

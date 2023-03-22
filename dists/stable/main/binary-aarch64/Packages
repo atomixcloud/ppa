@@ -15,6 +15,24 @@ SHA512: ce110503dd4c8b64a574fe854ce85a5a7cdcb6531be8bd8867708dc0aa899f92702d2f77
 Homepage: https://github.com/atomixcloud/kdebuild
 Description: Debian and Termux package builder.
 
+Package: klab
+Architecture: all
+Version: 1.0-b
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 341
+Depends: bear, codebrowser, cppcheck, doxygen, flawfinder, gnuplot, graphviz, python2
+Filename: pool/main/klab/klab_1.0-b_all.deb
+Size: 205100
+MD5sum: 9492caad79ba69bd0a34eb0d0a0668e0
+SHA1: e3d20782ac1be1829466c548b4517a6fc5e55472
+SHA256: 12fc2ada730c84650776221b72351c5104c5b73e52f29a53d73de9b77ca47cf5
+SHA512: 170165bb25234fffae1480f328bd59dc22825519fd23faa326511c9aed1594d03f22598a3778f74c5e132d28596d67d93fde348eb584b6bd1bf183f19174b47e
+Homepage: https://github.com/atomixcloud/klab
+Description: KLAB dashboard for web based project management and XREF tools.
+
 Package: krokit
 Architecture: all
 Version: 1.0-c

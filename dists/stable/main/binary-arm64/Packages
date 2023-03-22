@@ -343,3 +343,37 @@ SHA512: f9cfb88cfe5978ba9b93f5b8c6d3654ecce7d087e1110cd3f8506cfb7c20ab0c36d8c4d5
 Homepage: https://github.com/atomixcloud/logit
 Description: Debug message logger library
 
+Package: opengrok
+Architecture: all
+Version: 1.7-39
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 76198
+Filename: pool/main/opengrok/opengrok_1.7-39_all.deb
+Size: 78001828
+MD5sum: e169e5ef7fe6cc992b899a11935a8c07
+SHA1: e6b6dcf791b7fd639c378b2b4268ff527b2cfe3e
+SHA256: f99e8bcf31e4201f095cc9e0783d15513b3e289eb516682cb08feaedbe6cbf81
+SHA512: 4d49a33dfcdc108cb7912680de4313b56df34dba3aca6a8e470fa7c9ef74c614ecfd7b7f19bebaa2fa5ee4f5328a94a5e924870a0e201c057cc92b14bd9bf78d
+Homepage: https://oracle.github.io/opengrok
+Description: OpenGrok is a fast source code search and cross reference engine.
+
+Package: tomcat
+Architecture: all
+Version: 10.0-27
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 11722
+Filename: pool/main/tomcat/tomcat_10.0-27_all.deb
+Size: 11986392
+MD5sum: f308850bcded031b479893f84de80170
+SHA1: 23bb431e4159f5756463f908538bc112cb62c44f
+SHA256: 1cca37d65420647ede80badc76ff4ac33012c838aa42eb0a802f2d3460da4f1f
+SHA512: 8a41d9c0ca0b930e9c598f5c73064fffb2374e822284411cf614bd4fd92ef7f2c474134c760554fd39c2cc51891d350302983fef8c43a29bf0ac8a152ca4bdc8
+Homepage: https://tomcat.apache.org
+Description: Apache Tomcat is an open source web server and servlet container.
+

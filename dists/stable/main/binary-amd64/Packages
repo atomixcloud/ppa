@@ -362,19 +362,19 @@ Homepage: https://github.com/atomixcloud/logit
 Description: Debug message logger library
 
 Package: opengrok
-Architecture: amd64
+Architecture: all
 Version: 1.7-39
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 76198
-Filename: pool/main/opengrok/opengrok_1.7-39_amd64.deb
-Size: 78001832
-MD5sum: 35700523d0c87e9d45415a74bad5ed13
-SHA1: dbc912c80bf584dda47e399041e2bc3eb0640d57
-SHA256: 1da3509f8a881a460a602d4f564d00040c0cc37f42dce77559293e37d5ad7e1b
-SHA512: 26d18db5ccb9a58c176c43f52ee1cb87de84cce85fd1bd762755bb3c18bf4e9cbf28d8f88c682df35969c73b75f77d8edb970fd8059b5a916980ec32f96ef8f5
+Filename: pool/main/opengrok/opengrok_1.7-39_all.deb
+Size: 78001828
+MD5sum: e169e5ef7fe6cc992b899a11935a8c07
+SHA1: e6b6dcf791b7fd639c378b2b4268ff527b2cfe3e
+SHA256: f99e8bcf31e4201f095cc9e0783d15513b3e289eb516682cb08feaedbe6cbf81
+SHA512: 4d49a33dfcdc108cb7912680de4313b56df34dba3aca6a8e470fa7c9ef74c614ecfd7b7f19bebaa2fa5ee4f5328a94a5e924870a0e201c057cc92b14bd9bf78d
 Homepage: https://oracle.github.io/opengrok
 Description: OpenGrok is a fast source code search and cross reference engine.
 
@@ -397,19 +397,19 @@ Homepage: http://scrollkeeper.sourceforge.net
 Description: ScrollKeeper is a cataloging system for documentation on open systems.
 
 Package: tomcat
-Architecture: amd64
+Architecture: all
 Version: 10.0-27
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 11722
-Filename: pool/main/tomcat/tomcat_10.0-27_amd64.deb
-Size: 11986404
-MD5sum: a20efe8ba147436e4d1524b908751387
-SHA1: 0ff5bfad1f03bff1741e157b277f4a9f524f25f6
-SHA256: a35143b819fdef0bbecddd7d01b5e23c249c6e85a3d5efa5d43f5866cd56e40f
-SHA512: 336328b5d8517d8ecdb9f459f58a4a77494ca3d6ac831e68f7f44052967dd41b711923eb8be38f46acd341f7ad196b76ea543819ac51a35cba80be556e23b73d
+Filename: pool/main/tomcat/tomcat_10.0-27_all.deb
+Size: 11986392
+MD5sum: f308850bcded031b479893f84de80170
+SHA1: 23bb431e4159f5756463f908538bc112cb62c44f
+SHA256: 1cca37d65420647ede80badc76ff4ac33012c838aa42eb0a802f2d3460da4f1f
+SHA512: 8a41d9c0ca0b930e9c598f5c73064fffb2374e822284411cf614bd4fd92ef7f2c474134c760554fd39c2cc51891d350302983fef8c43a29bf0ac8a152ca4bdc8
 Homepage: https://tomcat.apache.org
 Description: Apache Tomcat is an open source web server and servlet container.
 

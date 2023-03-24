@@ -107,6 +107,24 @@ SHA512: 170165bb25234fffae1480f328bd59dc22825519fd23faa326511c9aed1594d03f22598a
 Homepage: https://github.com/atomixcloud/klab
 Description: KLAB dashboard for web based project management and XREF tools.
 
+Package: klab
+Architecture: all
+Version: 1.0-c
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 344
+Depends: bear, codebrowser, cppcheck, doxygen, flawfinder, gnuplot, graphviz, python2
+Filename: pool/main/klab/klab_1.0-c_all.deb
+Size: 204700
+MD5sum: 75c4a0c368104fa5a1c41c119fd07f12
+SHA1: 8bf103a4aef9fc1d8fc74add1864dcdcbebd0ec2
+SHA256: 9abb13477cab67e89dff42338207e4c5ff3b47dc8b333efd1b9d47391eb829be
+SHA512: 0272e9987d4644f95f20fe65cd5d3c05129d7df9589c579f043eea64cd0ae6511306f2ea32b0230dc2eb8d5c15f07fc86365ea1d57670b0f3f31954d6f27d207
+Homepage: https://github.com/atomixcloud/klab
+Description: KLAB dashboard for web based project management and XREF tools.
+
 Package: kplay
 Architecture: amd64
 Version: 1.0-0

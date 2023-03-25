@@ -58,16 +58,17 @@ Package: kdebuild
 Architecture: all
 Version: 1.0-c
 Multi-Arch: foreign
-Priority: optional
+Priority: standard
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 22
+Depends: debhelper, fakeroot, rsync
 Filename: pool/main/kdebuild/kdebuild_1.0-c_all.deb
-Size: 4352
-MD5sum: 000067bb80183a653a51d60a790a24dc
-SHA1: 8a56814df1bbff7dae176bbd88fdad6c4ea980b8
-SHA256: b70fac2a566aad7a39d2daf097b741ab553eaa8290adb6310fe0ca4658d1d22b
-SHA512: ce110503dd4c8b64a574fe854ce85a5a7cdcb6531be8bd8867708dc0aa899f92702d2f777c128bebf236e52ef637073d5c4171198a7bfceb9ee650898797f1bd
+Size: 4392
+MD5sum: dd0823f3704f46d097ce1c47a24cfbd7
+SHA1: 01ba68f412986c5a4d1a8beb1aca63589454af21
+SHA256: 354e926d084c49d5cdb04fa36d514fcacb9a8faad63df6e08b2769a5df2bb62b
+SHA512: 8d35676b79df8dc5f55283b1c4d87cad1ef7dbe780ce7690077ec1562f3b1771fcc3b33eebf70637fed6ef0b60fe55cf9347244537050b1221f90be4fa7abfcd
 Homepage: https://github.com/atomixcloud/kdebuild
 Description: Debian and Termux package builder.
 
@@ -223,12 +224,13 @@ Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 14
+Depends: cscope, global, python3, universal-ctags
 Filename: pool/main/ktags/ktags_1.1-d_all.deb
-Size: 3544
-MD5sum: fb0b65bdbd07a620e773a48cb5716481
-SHA1: e8a47a3608838da321368d4ce4d541dfdb350495
-SHA256: a17dc2ce13fdceb3fa88ca4515a4dddc722885d4cbc6388b27605909ecca5a7d
-SHA512: 09a8ea442abf25b60cb7dffc22ef63d08b35ae94e849d9ff705cd5e0bdcc47fa30a50110a5ad2508e66ec6439f47a3ea03bee19264bfc87b068fa7602a7f5e6e
+Size: 3580
+MD5sum: a455ee3774f3049388ec5a4d580c4892
+SHA1: 837bbacbfe58b79b84f78a4bad736b576badf7e2
+SHA256: 40498264b553888b19d7dfe3e396ef464232d7348864a50136aa6026d9dbe523
+SHA512: 0dff7660067bcb8585415397157ae0ed2bc50d114e4cd2aece28f19f86adab87cc016b685b182c641b8fe208a6d79a325f9c9bb86eebff8aa5ade3cd8caea60e
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
 

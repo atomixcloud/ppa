@@ -90,6 +90,24 @@ SHA512: 7c58ebdd6a48ba198353b399dcb59b396290c2d6f0e63772acb655a0d351b0d2c153fc8e
 Homepage: https://github.com/atomixcloud/klab
 Description: KLAB dashboard for web based project management and XREF tools.
 
+Package: kplay
+Architecture: arm64
+Version: 1.0-a
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 76
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.16.2), libmagic1 (>= 5.12), zenity
+Filename: pool/main/kplay/kplay_1.0-a_arm64.deb
+Size: 33296
+MD5sum: 5302c5000c26227efa1f84a97b1c31a9
+SHA1: c4e38b99e6528f9366874e2ccc827e1784e92796
+SHA256: a2202042b219cbb657b121269597ccf2fede66b957e6b3bcfc31c3ce4f2106f7
+SHA512: 5776f25546a1f53c2aa172287c6ae3a61d44ddaf506db74473d394bc7327449a766984d9b1b8f5d8e30d0a5c58dac6e9ea72a931d1d8ea7b6bfd098953d63f12
+Homepage: https://github.com/atomixcloud/kplay
+Description: GTK-2 Mediaplayer
+
 Package: krokit
 Architecture: all
 Version: 1.0-c
@@ -235,24 +253,6 @@ SHA256: 48012b4b191d435fddb39c988d1826addea30613951424464cb27355a91ca7ef
 SHA512: 841993ab22017640dc82df3521e48633e84532506f8108e88144cee23a0219260b8150ad0716c83912aebc5f5eae4cbf172c8a4cfb863a3f8e9fa1b21279a227
 Homepage: https://github.com/kribakarans/ktest
 Description: Ktest shared library
-
-Package: ktools
-Architecture: arm64
-Version: 1.2-0
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 510
-Depends: libc6 (>= 2.29), libexif12 (>= 0.6.21-1~), libkstat, libmagic1 (>= 5.12), libssl1.1 (>= 1.1.0)
-Filename: pool/main/ktools/ktools_1.2-0_arm64.deb
-Size: 127444
-MD5sum: 0c5daee31f7bd449c704b9bfcc6ad5ff
-SHA1: c1e452482b846527af48c7c83e3f3ee4c05b4f5d
-SHA256: e38d2a07818a816a2373c38b3d82bb3547d9fbaa0e5463081fee1aa77b852e5d
-SHA512: 494016ad57fc9583895adaa9b4afc20aa916c929359d8dadee8187de73bea850c19d8eabcdbde2f2e325bb5211b90a2e6bb87c27a650ed601e6178b1179d493e
-Homepage: https://github.com/atomixcloud/ktools
-Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
 
 Package: ktools
 Architecture: arm64

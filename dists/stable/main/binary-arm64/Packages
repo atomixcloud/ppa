@@ -90,24 +90,6 @@ SHA512: 7c58ebdd6a48ba198353b399dcb59b396290c2d6f0e63772acb655a0d351b0d2c153fc8e
 Homepage: https://github.com/atomixcloud/klab
 Description: KLAB dashboard for web based project management and XREF tools.
 
-Package: kplay
-Architecture: arm64
-Version: 1.0-0
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 80
-Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.16.2), libmagic1 (>= 5.12)
-Filename: pool/main/kplay/kplay_1.0-0_arm64.deb
-Size: 33360
-MD5sum: d2987fa66ca2623d94f3197e19d7a322
-SHA1: 807832f623ee78e460841f586acf7dabcedbde01
-SHA256: 0b1eb9363c3523689e2760f43d9740bf5c31256e5d56243f002054a1d65aa69e
-SHA512: 2738aa17a4010fa2415ee6647975225864e330bb71a99b70662f33d9bb9719f5a71e1024058155fc935a80b66d4f5d6db4ad9dfca800ecdec625312bb6a91a19
-Homepage: https://github.com/atomixcloud/kplay
-Description: GTK-2 Mediaplayer
-
 Package: krokit
 Architecture: all
 Version: 1.0-c

@@ -110,19 +110,19 @@ Description: KLAB dashboard for web based project management and XREF tools.
 
 Package: kplay
 Architecture: amd64
-Version: 1.0-0
+Version: 1.0-a
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 77
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.16.2), libmagic1 (>= 5.12), zenity
-Filename: pool/main/kplay/kplay_1.0-0_amd64.deb
-Size: 34368
-MD5sum: bead5d98a98379644f0eb78ec6c0cff7
-SHA1: 06eae990498b061a26600054e9ba0ec1bc026176
-SHA256: cb36846630a34b0441b2f3bed369e08a1106a3eec9128c1415a77ead8c517788
-SHA512: bf904a24665495ec20868da460eae099b13f3563d9d32e7ac5fa32165541d982b8a689b13245550e420c001802c04ba5b05c9081c54e7153c72522c82671c297
+Filename: pool/main/kplay/kplay_1.0-a_amd64.deb
+Size: 34292
+MD5sum: f1976965f689d596536d95cac08e82cd
+SHA1: 9c4040204b25afc08ffc524bbb56d10676f03169
+SHA256: f7e94c4d1c9bb2a91be58641c08429bfd73cc536968dcc405fcaf65c1ee116fb
+SHA512: 2fcb0cbe2033c820ac7d02b626c74b60917d1d03160b31afd794d384d08f9c4f717a503a380bcaaea899b298ff10228af40cad09a69e9cb0afef26e2737bc370
 Homepage: https://github.com/atomixcloud/kplay
 Description: GTK-2 Mediaplayer
 

@@ -18,24 +18,6 @@ Description: Debian and Termux package builder.
 
 Package: klab
 Architecture: all
-Version: 1.0-b
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 341
-Depends: bear, codebrowser, cppcheck, doxygen, flawfinder, gnuplot, graphviz, python2
-Filename: pool/main/klab/klab_1.0-b_all.deb
-Size: 205100
-MD5sum: 9492caad79ba69bd0a34eb0d0a0668e0
-SHA1: e3d20782ac1be1829466c548b4517a6fc5e55472
-SHA256: 12fc2ada730c84650776221b72351c5104c5b73e52f29a53d73de9b77ca47cf5
-SHA512: 170165bb25234fffae1480f328bd59dc22825519fd23faa326511c9aed1594d03f22598a3778f74c5e132d28596d67d93fde348eb584b6bd1bf183f19174b47e
-Homepage: https://github.com/atomixcloud/klab
-Description: KLAB dashboard for web based project management and XREF tools.
-
-Package: klab
-Architecture: all
 Version: 1.0-c
 Multi-Arch: foreign
 Priority: optional
@@ -44,11 +26,11 @@ Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
 Installed-Size: 344
 Depends: bear, codebrowser, cppcheck, doxygen, flawfinder, gnuplot, graphviz, python2
 Filename: pool/main/klab/klab_1.0-c_all.deb
-Size: 204700
-MD5sum: 75c4a0c368104fa5a1c41c119fd07f12
-SHA1: 8bf103a4aef9fc1d8fc74add1864dcdcbebd0ec2
-SHA256: 9abb13477cab67e89dff42338207e4c5ff3b47dc8b333efd1b9d47391eb829be
-SHA512: 0272e9987d4644f95f20fe65cd5d3c05129d7df9589c579f043eea64cd0ae6511306f2ea32b0230dc2eb8d5c15f07fc86365ea1d57670b0f3f31954d6f27d207
+Size: 204704
+MD5sum: d6ec1fb75e2c84eaa266dbd1376ac28a
+SHA1: 8b2075fb7d88d45489499344a377069fda9d1680
+SHA256: 92ee5e4ed424c8ef0fcf72d90f5d8353eee8a8f3131545c49f0130db6be78c6f
+SHA512: 7c58ebdd6a48ba198353b399dcb59b396290c2d6f0e63772acb655a0d351b0d2c153fc8e53256cf27784b265844b2c7b2281e1b4db6e43434b401fcd36029d0d
 Homepage: https://github.com/atomixcloud/klab
 Description: KLAB dashboard for web based project management and XREF tools.
 

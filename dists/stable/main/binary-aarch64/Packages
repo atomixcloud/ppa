@@ -118,18 +118,18 @@ Description: Source code tagging and navigation tool.
 
 Package: ktools
 Architecture: aarch64
-Version: 1.2-b
+Version: 1.2-c
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 408
+Installed-Size: 328
 Depends: file, libexif, kstat
-Filename: pool/main/ktools/ktools_1.2-b_aarch64.deb
-Size: 84376
-MD5sum: ac928e06bfe2e14c9d2151e1b9862024
-SHA1: f9bbbfdb4de105f5004edda72652e633fe1f3b52
-SHA256: 659a6e9ce7d0c7533e8aae0ea4369fe7a0089dcf2ae88b1eb7e539324f4442e7
-SHA512: 6ce69a19ff2538beca83e1097fb6411657ce0400404c30ed335667b032fcf2772a3dc1e0162cfec723c8bfde6c01f345355700f81255f547d625a5dc2f295090
+Filename: pool/main/ktools/ktools_1.2-c_aarch64.deb
+Size: 66456
+MD5sum: 755f5aecf4ff88f3cef978fe9efdfe84
+SHA1: 0784a638f1014f7dafb5e094e689bd42024e0fe8
+SHA256: f898ab0c057659bf5850514ff16f3e275a7887dd368347dfac34ea9cca03af8d
+SHA512: d1ecb348849f98e54723c9c4d20eb1d8774438f0b83a4539c3baf284b8e884213afc3996bcbe8410e42fc9a78d48e99a7cb4c3394a904bf1dab204a257474b3b
 Homepage: https://github.com/atomixcloud/ktools
-Description: The K-Tools are a collection of linux file processing, exif, git, hashing, mime and utility tools.
+Description: The K-Tools are a collection of linux file processing, exif, find, hashing, mime and utility tools.
 
 Package: logit-static
 Architecture: aarch64

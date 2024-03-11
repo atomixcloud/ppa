@@ -83,36 +83,19 @@ Description: Kstat: Advanced file stat program.
 
 Package: ktags
 Architecture: all
-Version: 1.1-b
+Version: 1.2-0
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 14
-Filename: pool/main/ktags/ktags_1.1-b_all.deb
-Size: 3556
-MD5sum: 7e97de504634a05b2589669dfa85ca19
-SHA1: cb71a88a337176f77b9500a4bb794c3482e6d77c
-SHA256: 3e5de323a96d007d694d9d06df1949bc7c49caf6924b958771bf4f4064f0f966
-SHA512: 3cc4d146eeef35b7161db922c344b40265f0fc8c38aa66495299ff98ee871fd128b723504d70d396c0a65b895c2587cf37368478dee820f6e5ecb6b12b06e035
-Homepage: https://github.com/kribakarans/ktags
-Description: Source code tagging and navigation tool.
-
-Package: ktags
-Architecture: all
-Version: 1.1-d
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
-Installed-Size: 14
-Depends: cscope, global, python3, universal-ctags
-Filename: pool/main/ktags/ktags_1.1-d_all.deb
-Size: 3580
-MD5sum: a455ee3774f3049388ec5a4d580c4892
-SHA1: 837bbacbfe58b79b84f78a4bad736b576badf7e2
-SHA256: 40498264b553888b19d7dfe3e396ef464232d7348864a50136aa6026d9dbe523
-SHA512: 0dff7660067bcb8585415397157ae0ed2bc50d114e4cd2aece28f19f86adab87cc016b685b182c641b8fe208a6d79a325f9c9bb86eebff8aa5ade3cd8caea60e
+Installed-Size: 16
+Depends: cscope, global, python3
+Filename: pool/main/ktags/ktags_1.2-0_all.deb
+Size: 4072
+MD5sum: 838fa45a709abea03b7f635a636be1e6
+SHA1: f719d6664c2962010b32abb902e894bb0a318713
+SHA256: 4d4ee8ca3f7b960f288a99dede72667222e187d44e4e2d5e8fc32dacf302177f
+SHA512: 38e5ff2cb64ba3eaaf84ff5e56419069ec964471ce25d2f49f8e45f2e147b62fdf40a481955bbb17c7e0088d0dd1c716cf3b17e01f24c5f61ce5d83775249e1b
 Homepage: https://github.com/kribakarans/ktags
 Description: Source code tagging and navigation tool.
 
